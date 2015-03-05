@@ -1,0 +1,94 @@
+\begin{thebibliography}{10}
+
+\bibitem{shinystan}
+{SHINYstan Team}.
+\newblock SHINYstan: R Package for Interactive Exploration of Markov Chain
+  Monte Carlo Output, Version 0.1, 2015.
+
+\bibitem{Gelman_red_2009}
+A.~Gelman.
+\newblock {\em Red state, blue state, rich state, poor state: why Americans
+  vote the way they do}.
+\newblock Princeton University Press, 2009.
+
+\bibitem{Bafumi_Gelman_2007}
+J.~Bafumi and A.~Gelman.
+\newblock Fitting Multilevel Models When Predictors and Group Effects
+  Correlate.
+\newblock {SSRN} Scholarly Paper {ID} 1010095, Social Science Research Network,
+  Rochester, {NY}, September 2007.
+
+\bibitem{Gelman-Hill_2014}
+A.~Gelman, J.~B. Carlin, H.~S. Stern, and D.~B. Rubin.
+\newblock {\em Bayesian data analysis}, volume~2.
+\newblock Taylor \& Francis, 2014.
+
+\bibitem{Gelman_multilevel_2006}
+A.~Gelman.
+\newblock Multilevel (Hierarchical) Modeling: What It Can and Cannot Do.
+\newblock {\em Technometrics}, 48(3):432--435, August 2006.
+
+\bibitem{Rubin_1976}
+D.~B. Rubin.
+\newblock Inference and missing data.
+\newblock {\em Biometrika}, 63(3):581--592, 1976.
+
+\bibitem{Wang_20029935}
+C.~Wang and C.~B. Hall.
+\newblock Correction of bias from non-random missing longitudinal data using
+  auxiliary information.
+\newblock {\em Stat Med}, 29(6):671--679, Mar 2010. PMID: 20029935.
+
+\bibitem{Meng_1994}
+X.-L. Meng.
+\newblock Multiple-Imputation Inferences with Uncongenial Sources of Input.
+\newblock {\em Statist. Sci.}, 9(4):538--558, 11 1994.
+
+\bibitem{Collins_11778676}
+L.~M. Collins, J.~L. Schafer, and C.~M. Kam.
+\newblock A comparison of inclusive and restrictive strategies in modern
+  missing data procedures.
+\newblock {\em Psychol Methods}, 6(4):330--351, Dec 2001. PMID: 11778676.
+
+\bibitem{Rubin_1996}
+D.~B. Rubin.
+\newblock Multiple imputation after 18+ years.
+\newblock {\em Journal of the American Statistical Association},
+  91(434):473--489, 1996.
+
+\bibitem{Daniels_2008}
+M.~J. Daniels and J.~W. Hogan.
+\newblock {\em Missing data in longitudinal studies: Strategies for Bayesian
+  modeling and sensitivity analysis}.
+\newblock CRC Press, 2008.
+
+\bibitem{Schafer_1997}
+J.~L. Schafer.
+\newblock {\em Analysis of incomplete multivariate data}.
+\newblock CRC press, 1997.
+
+\bibitem{Fitzmaurice_2008}
+G.~Fitzmaurice, M.~Davidian, G.~Verbeke, and G.~Molenberghs.
+\newblock {\em Longitudinal data analysis}.
+\newblock CRC Press, 2008.
+
+\bibitem{Hall_25389642}
+C.~B. Hall, R.~B. Lipton, M.~J. Katz, and C.~Wang.
+\newblock Correcting Bias Caused by Missing Data in the Estimate of the Effect
+  of Apolipoprotein epsilon 4 on Cognitive Decline.
+\newblock {\em J Int Neuropsychol Soc}, pages 1--6, Nov 2014. PMID: 25389642.
+
+\bibitem{Duncan_16710766}
+M.~M. Duncan, P.~A. McIntosh, C.~D. Stayton, and C.~B. Hall.
+\newblock Individualized performance feedback to increase prenatal domestic
+  violence screening.
+\newblock {\em Matern Child Health J}, 10(5):443--449, Sep 2006. PMID:
+  16710766.
+
+\bibitem{Davis_7650822}
+D.~A. Davis, M.~A. Thomson, A.~D. Oxman, and R.~B. Haynes.
+\newblock Changing physician performance. A systematic review of the effect of
+  continuing medical education strategies.
+\newblock {\em JAMA}, 274(9):700--705, Sep 1995. PMID: 7650822.
+
+\end{thebibliography}

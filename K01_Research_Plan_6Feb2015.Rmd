@@ -1,0 +1,26 @@
+---
+bibliography: C:/Users/Michael Andreae/Dropbox/References/K01_bibliography_7Feb15.bib
+csl: apa.csl
+output:
+  pdf_document: default
+  word_document:
+    reference_docx: Style_K01_Research_Plan_6Feb2015.docx
+---
+
+# Research Plan
+## Significance
+### Clincial Impact
+##### Acute respiratory failure is a significant burden of disease.
+Many hospitalized patients develop acute respiratory failure [@shinystan], which is worrisome.
+
+##### more  respiratory failure is a significant burden of disease.
+Indeed ny hospitalized patients develop acute respiratory failure [@shinystan], which is worrisome.
+
+### Bayesian imputation
+#### Heterogeneous provider compliance and missing clinical data may limit implementation
+of the prediction algorithm, the therapeutic interventions and the trial itself. Variables with strong predicitive power in our model may not be recorded in all patients or may be missing for the time window needed for prediction. To improve prediction for cases with incomplete data we can impute the missing data. Likelihood-based mixed effects models for incomplete data give valid estimates when the data are ignorably missing; that is, the parameters for the missing data process are distinct from those of the main model for the outcome, and the data are missing at random (MAR). This unlikely in our setting of clinical data in the EMR, because physicians will request test based on the patients comorbidities and current clinical conditions. Data will not be missing at random, but incompleteness will be associated with predictors and outcomes.
+
+##### Incomplete data can be imputed from auxilary data, 
+that is additional information available in the form of an auxiliary variable known to be correlated with the missing outcome of interest. For example, arterial blood gas oxygen saturation may be used to impute peripheral pulse oxymetry or oxygen therapy, if the latter are unavailable for the prediction time window, and vice versa.
+
+ [@Wang_20029935].

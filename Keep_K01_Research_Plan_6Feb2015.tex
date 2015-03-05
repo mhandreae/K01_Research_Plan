@@ -1,0 +1,139 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+\setlength{\droptitle}{-2em}
+  \title{}
+  \pretitle{\vspace{\droptitle}}
+  \posttitle{}
+  \author{}
+  \preauthor{}\postauthor{}
+  \date{}
+  \predate{}\postdate{}
+
+
+
+
+\begin{document}
+
+\maketitle
+
+
+\section{Research Plan}\label{research-plan}
+
+\subsection{Significance}\label{significance}
+
+\subsubsection{Clincial Impact}\label{clincial-impact}
+
+\subparagraph{Acute respiratory failure is a significant burden of
+disease.}\label{acute-respiratory-failure-is-a-significant-burden-of-disease.}
+
+Many hospitalized patients develop acute respiratory failure (SHINYstan
+Team, 2015), which is worrisome.
+
+\subparagraph{more respiratory failure is a significant burden of
+disease.}\label{more-respiratory-failure-is-a-significant-burden-of-disease.}
+
+Indeed ny hospitalized patients develop acute respiratory failure
+(SHINYstan Team, 2015), which is worrisome.
+
+\subsubsection{Bayesian imputation}\label{bayesian-imputation}
+
+\paragraph{Heterogeneous provider compliance and missing clinical data
+may limit
+implementation}\label{heterogeneous-provider-compliance-and-missing-clinical-data-may-limit-implementation}
+
+of the prediction algorithm, the therapeutic interventions and the trial
+itself. Variables with strong predicitive power in our model may not be
+recorded in all patients or may be missing for the time window needed
+for prediction. To improve prediction for cases with incomplete data we
+can impute the missing data. Likelihood-based mixed effects models for
+incomplete data give valid estimates when the data are ignorably
+missing; that is, the parameters for the missing data process are
+distinct from those of the main model for the outcome, and the data are
+missing at random (MAR). This unlikely in our setting of clinical data
+in the EMR, because physicians will request test based on the patients
+comorbidities and current clinical conditions. Data will not be missing
+at random, but incompleteness will be associated with predictors and
+outcomes.
+
+\subparagraph{Incomplete data can be imputed from auxilary
+data,}\label{incomplete-data-can-be-imputed-from-auxilary-data}
+
+that is additional information available in the form of an auxiliary
+variable known to be correlated with the missing outcome of interest.
+For example, arterial blood gas oxygen saturation may be used to impute
+peripheral pulse oxymetry or oxygen therapy, if the latter are
+unavailable for the prediction time window, and vice versa.
+
+first (Wang \& Hall, 2010). second(Hall, Lipton, Katz, \& Wang, 2014)
+
+Joint modeling methods can help address bias caused by informative
+missing data in the estimation of the effect of{]}
+
+Hall, C. B., Lipton, R. B., Katz, M. J., \& Wang, C. (2014). Correcting
+bias caused by missing data in the estimate of the effect of
+apolipoprotein epsilon 4 on cognitive decline. \emph{J Int Neuropsychol
+Soc}, 1--6.
+doi:\href{http://dx.doi.org/10.1017/S1355617714000952}{10.1017/S1355617714000952}
+
+SHINYstan Team. (2015). SHINYstan: R package for interactive exploration
+of markov chain monte carlo output, version 0.1. Retrieved from
+\url{https://github.com/jgabry/SHINYstan}
+
+Wang, C., \& Hall, C. B. (2010). Correction of bias from non-random
+missing longitudinal data using auxiliary information. \emph{Stat Med},
+\emph{29}(6), 671--679.
+doi:\href{http://dx.doi.org/10.1002/sim.3821}{10.1002/sim.3821}
+
+\end{document}
