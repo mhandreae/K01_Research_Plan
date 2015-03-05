@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.4)  5 MAR 2015 11:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.4)  5 MAR 2015 13:10
 entering extended mode
 **K01_Research_Plan_Michael_Andreae.tex
 
@@ -396,21 +396,6 @@ Package pdftex.def Info: Figures/Bayesian_imputation.pdf used on input line 290
 .
 (pdftex.def)             Requested size: 274.62112pt x 119.24338pt.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.320 \newline
-               \textbf{SA 2b:} To investigate patient and provider character...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Overfull \hbox (0.5737pt too wide) in paragraph at lines 320--321
 \T1/phv/b/n/10.95 SA 2b: \T1/phv/m/n/10.95 To in-ves-ti-gate pa-tient and provi
 der char-ac-ter-is-tics as drivers of poor provider com-pli-ance in PROOFCheck,
@@ -418,14 +403,7 @@ der char-ac-ter-is-tics as drivers of poor provider com-pli-ance in PROOFCheck,
  []
 
 [9 <C:/Users/Michael Andreae/Dropbox/Professional/KL2/New K08/K01_Research_Plan
-/Figures/Bayesian_imputation.pdf>]
-Overfull \hbox (32.01761pt too wide) in paragraph at lines 345--346
-[]  \T1/phv/b/n/10.95 Im-ple-men-ta-tion and in-di-vid-u-al-iza-tion of pre-ven
--tive in-ter-ven-tions us-ing EM-R--con-text \T1/phv/m/n/10.95 Dur-ing the PROO
-Fcheck
- []
-
-[10] [11]
+/Figures/Bayesian_imputation.pdf>] [10] [11]
 ("C:\Users\Michael Andreae\Dropbox\Professional\KL2\New K08\K01_Research_Plan\K
 01_Research_Plan_Michael_Andreae.bbl" [12] [13] [14]) [15]
 ("C:\Users\Michael Andreae\Dropbox\Professional\KL2\New K08\K01_Research_Plan\K
@@ -435,10 +413,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4596 strings out of 493921
- 65055 string characters out of 3144847
- 225336 words of memory out of 3000000
- 7817 multiletter control sequences out of 15000+200000
+ 4599 strings out of 493921
+ 65108 string characters out of 3144847
+ 225348 words of memory out of 3000000
+ 7820 multiletter control sequences out of 15000+200000
  41951 words of font info for 63 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
  36i,11n,38p,2085b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -452,7 +430,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
-Output written on K01_Research_Plan_Michael_Andreae.pdf (15 pages, 436937 bytes
+Output written on K01_Research_Plan_Michael_Andreae.pdf (15 pages, 439708 bytes
 ).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)

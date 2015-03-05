@@ -353,6 +353,13 @@ P.~Congdon.
 \newblock {\em Computational statistics \& data analysis}, 48(4):735--753,
   2005.
 
+\bibitem{Welch24782349}
+C.~A. Welch, I.~Petersen, J.~W. Bartlett, I.~R. White, L.~Marston, R.~W.
+  Morris, I.~Nazareth, K.~Walters, and J.~Carpenter.
+\newblock Evaluation of two-fold fully conditional specification multiple
+  imputation for longitudinal electronic health record data.
+\newblock {\em Stat Med}, 33(21):3725--3737, Sep 2014. PMID: 24782349.
+
 \bibitem{Huntington_16311133}
 J.~L. Huntington and A.~Dueck.
 \newblock Handling missing data.
@@ -363,13 +370,6 @@ J.~A. Sloan and A.~Dueck.
 \newblock Issues for statisticians in conducting analyses and translating
   results for quality of life end points in clinical trials.
 \newblock {\em J Biopharm Stat}, 14(1):73--96, Feb 2004. PMID: 15027501.
-
-\bibitem{Welch24782349}
-C.~A. Welch, I.~Petersen, J.~W. Bartlett, I.~R. White, L.~Marston, R.~W.
-  Morris, I.~Nazareth, K.~Walters, and J.~Carpenter.
-\newblock Evaluation of two-fold fully conditional specification multiple
-  imputation for longitudinal electronic health record data.
-\newblock {\em Stat Med}, 33(21):3725--3737, Sep 2014. PMID: 24782349.
 
 \bibitem{Gelman1998notasked}
 A.~Gelman, G.~King, and C.~Liu.
@@ -387,5 +387,27 @@ J.~L. Cook, K.~L. Grady, M.~Colvin, S.~M. Joseph, M.~A. Brisco, M.~N. Walsh,
 L.~T. Goodnough, J.~H. Levy, and M.~F. Murphy.
 \newblock Concepts of blood transfusion in adults.
 \newblock {\em Lancet}, 381(9880):1845--1854, May 2013. PMID: 23706801.
+
+\bibitem{Andreae_23811426}
+M.~H. Andreae and D.~A. Andreae.
+\newblock Regional anaesthesia to prevent chronic pain after surgery: a
+  Cochrane systematic review and meta-analysis.
+\newblock {\em Br J Anaesth}, 111(5):711--720, Nov 2013. PMID: 23811426.
+
+\bibitem{Vetter_24781579}
+T.~R. Vetter, A.~M. Boudreaux, K.~A. Jones, J.~M. Hunter, Jr, and J.-F. Pittet.
+\newblock The perioperative surgical home: how anesthesiology can
+  collaboratively achieve and leverage the triple aim in health care.
+\newblock {\em Anesth Analg}, 118(5):1131--1136, May 2014. PMID: 24781579.
+
+\bibitem{Kaushal_24821739}
+R.~Kaushal, G.~Hripcsak, D.~D. Ascheim, T.~Bloom, T.~R. Campion, Jr, A.~L.
+  Caplan, B.~P. Currie, T.~Check, E.~L. Deland, M.~N. Gourevitch, R.~Hart,
+  C.~R. Horowitz, I.~Kastenbaum, A.~A. Levin, A.~F.~H. Low, P.~Meissner,
+  P.~Mirhaji, H.~A. Pincus, C.~Scaglione, D.~Shelley, J.~N. Tobin, and N.~Y.
+  C.-C. D. R.~N. ~.
+\newblock Changing the research landscape: the New York City Clinical Data
+  Research Network.
+\newblock {\em J Am Med Inform Assoc}, 21(4):587--590, 2014. PMID: 24821739.
 
 \end{thebibliography}
