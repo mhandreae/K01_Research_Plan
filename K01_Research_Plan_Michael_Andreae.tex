@@ -233,51 +233,83 @@ Many independent variables are candidates for potential inclusion into our Bayes
 Our primary dichotomous outcome will be acute respiratory failure requiring mechanical ventilation longer than 48 hours. Outcomes are specified as positive for a) mechanical ventilation lasting longer than 48 hours or b) mechanical ventilation lasts less than 48 hours, but the patient died within 96 hours of the calculated score. Patients that are not on prolonged ventilation within 96 hours or discharged alive from the hospital will be considered negative.
 
 \subsubsection*{Bayesian hierarchical modeling to reflect the nested structure of health care}
-We will build a Bayesian hierarchical multivariate logistic regression model of time-invariant and time-variant demographic, clinical and administrative variables. Our Bayesian hierarchical modeling will represent the multi-level nested structure of current health care, with levels for medical or surgical service the patient is under, the floor or ward where the patient is cared for, the institution the patient is admitted to. We will also consider other random effects for example for co-morbidity and other time-invariant patient specific descriptors. We illustrate this nested structure in a simple logistic model with hierarchical levels for patient, service and hospital: 
+We will build a Bayesian hierarchical multivariate logistic regression model of time-invariant and time-variant demographic, clinical and administrative variables. Our Bayesian hierarchical modeling will represent the multi-level nested structure of current health care, with levels for medical or surgical service the patient is under, the floor or ward where the patient is cared for, the institution the patient is admitted to. We will also consider other random effects for example for co-morbidity and other time-invariant patient specific descriptors. We illustrate this nested structure in a simple logistic model with hierarchical levels for patient, service and hospital. 
 
-\subparagraph*{Patient level}
-At the patient level, we may model the probability $alpha$ that a patient will develop the dichotomous event $Y$, acute respiratory failure requiring mechanical ventilation, using arterial oxygen tension $PaO_{2}$ as a predictor in a simple logistic regression model: 
-\begin{align}
-Y \sim Binom (\alpha, n) \\
-\alpha = inv\_log (\beta_{0} +\beta_{1} * PaO_2)
-\end{align}
+\begin{wrapfigure}{l}{.5\textwidth}
+ \begin{equation} \label{eq:patientlevel}
+ Y \sim Binom (\alpha, n); \alpha = inv\_log (\beta_{0} +\beta_{1} * PaO_2)
+ \end{equation}
+\vspace{-25pt}
+\end{wrapfigure}
 
-\subparagraph*{Service  level}
-Patients are typically assigned to hospital services. Pulmonary service patients may have a lower baseline $PaO_2$. Surgical patients tend to have normal lung function. Hence we may model $\beta_{0}$ to allow different intercepts representing the average $PaO_2$ of patients in the various medical and surgical services estimating different service level mean intercepts $\gamma_0$. Under a medical service, smaller changes in $PaO_2$ may be indicative of respiratory deterioration compared to a surgical service, where larger drop in arterial oxygen tension predicts outcome. We may hence allow the regression coefficient for the slope $\beta_{1}$ to vary around different mean slopes $\gamma_1$ at the service level : 
-\begin{align}
- \beta_{0} \sim Normal (\gamma_0 , \tau_{\beta_0}) \\
+\subparagraph*{Patient level (\ref{eq:patientlevel})}
+On the left, we model at the patient level, the probability $alpha$ that a patient will develop the dichotomous event $Y$, acute respiratory failure requiring mechanical ventilation, using arterial oxygen tension $PaO_{2}$ as a predictor in a simple logistic regression model. However, patients are typically assigned to hospital services. Pulmonary service patients may have a lower baseline $PaO_2$, while surgical patients tend to have normal lung function. 
+
+\begin{wrapfigure}{l}{.5\textwidth}
+\begin{equation} \label{eq:servicelevel}
+ \beta_{0} \sim Normal (\gamma_0 , \tau_{\beta_0}); 
  \beta_{1} \sim Normal (\gamma_1, \tau_{\beta_1})
-\end{align}
+\end{equation}
+\end{wrapfigure}
 
-\subparagraph*{Hospital level}
-Some hospitals may cater to an economically disadvantages population, which is sicker on average. To reflect this, we may  model the mean intercept $\gamma_0$ for the services hierarchically at the hospital level. Some hospitals are organized such that patients differ very much between services, other hospitals may have a more homogeneous patient distribution; this \textit{variation} $\tau_{\beta_1}$ of the mean slope $\gamma_1$ within services at a given hospital can also be modeled to capture the variability of the predictive effect of lower $PaO_2$:
-\begin{align}
+\subparagraph*{Service level (\ref{eq:servicelevel})}
+On the left we develop our hierarchical model to allow different intercepts $\beta_{0}$ representing the average $PaO_2$ of patients in the various medical and surgical services estimating different service level mean intercepts $\gamma_0$. Under a medical service, smaller changes in $PaO_2$ may be indicative of respiratory deterioration compared to a surgical service, where larger drop in arterial oxygen tension predicts outcome. We may allow the regression coefficient for the slope $\beta_{1}$ to vary around different mean slopes $\gamma_1$ at the service level. 
+
+\begin{wrapfigure}{l}{.5\textwidth}
+\begin{equation} \label{eq:hosptiallevel}
 \gamma_0 \sim Normal (\delta, \zeta) \\
 \tau_{\beta_1} \sim Normal(\delta_tau, \kappa) 
-\end{align}
+\end{equation}
+\end{wrapfigure}
 
+\subparagraph*{Hospital level (\ref{eq:hosptiallevel})}
+Some hospitals may cater to an economically disadvantages population, which is sicker on average. To reflect this, we may  model the mean intercept $\gamma_0$ for the services hierarchically at the hospital level. Some hospitals are organized such that patients differ very much between services, other hospitals may have a more homogeneous patient distribution; this \textit{variation} $\tau_{\beta_1}$ of the mean slope $\gamma_1$ within services at a given hospital can also be modeled to capture the variability of the predictive effect of lower $PaO_2$.
+ 
 \subparagraph*{In APPROVE, the compared frequentist prediction model will be build by Dr. Gong's statistical team} employing the published LIPS score \cite{Herridge_12594312} to identify hospitalized patients at risk for prolonged mechanical ventilation and death. The score at the selected start time will be used to determine the best cutoff score to identify the patients with the highest risk of developing prolonged mechanical ventilation.
 
-\begin{wrapfigure}{R}{0pt}
+\subparagraph*{Data Acquisition}
+Data will be abstracted from a clinical data warehouse(see Environment and Resources). A multi-prong approach for capturing complete, longitudinal data in real-time, near real-time, or asynchronously from the EMR replica will be used. When possible, and where collection of additional complementary information is warranted, we will use the Retrieve Form for Data Capture IS THIS THE CORRECT REFERENCE?\cite{Rothenhaeusler_2005},an IHE30 IS THIS THE CORRECT REFERENCE? \cite{Rotte_15809512} standard for gathering new data within a user's current application environment (EMR in this case) to meet the requirements of an external system. Secured electronic data capture tools provided by the Montefiore Enterprise Clinical Research Management System will be used to streamline, quality control, normalize, and manage data collection and data entry efforts. A fully de-identified, study specific database of all study variables will be compiled for model development and validation. When subsequently patient data from additional regional medical centers are incorporated, site identifier variables will be obfuscated to blind investigators.
+
+\begin{wrapfigure}{L}{0pt}
  \vspace{-70pt}
  \includegraphics[scale=1]{Figures/Hamiltonian.png}
   \vspace{-30pt}
   \caption{\footnotesize Hamiltonian MCMC uses momentum to optimize the next proposal. The higher momentum of the current position (black dot) is indicated in the top panel. The middle panel illustrates how random samples are drawn to the mode of the posterior distribution (lower panel) leading to faster convergence and higher effective sample size. Fig 14.1 in Kruschke \cite{Kruschke_Book_2014}.}
     \label{fig:Hamiltonian}
- \vspace{- 15 pt}
+ \vspace{- 1 pt}
 \end{wrapfigure}
 
-\subparagraph*{Data Acquisition}
-Data will be abstracted from a clinical data warehouse(see Environment and Resources). A multi-prong approach for capturing complete, longitudinal data in real-time, near real-time, or asynchronously from the EMR replica will be used. When possible, and where collection of additional complementary information is warranted, we will use the Retrieve Form for Data Capture IS THIS THE CORRECT REFERENCE?\cite{Rothenhaeusler_2005},an IHE30 IS THIS THE CORRECT REFERENCE? \cite{Rotte_15809512} standard for gathering new data within a user's current application environment (EMR in this case) to meet the requirements of an external system. Secured electronic data capture tools provided by the Montefiore Enterprise Clinical Research Management System will be used to streamline, quality control, normalize, and manage data collection and data entry efforts. A fully de-identified, study specific database of all study variables will be compiled for model development and validation. When subsequently patient data from additional regional medical centers are incorporated, site identifier variables will be obfuscated to blind investigators.
-
 \subparagraph*{Computational Implementation:}
-We will implement the Bayesian model in the ultra-fast probabilistic programming language software STAN developed by my co-mentor Dr. Gelman \cite{Stan_Software_2014}. Clever statistical transformations to sample in the standardized normal space will take full advantage of the faster convergence and higher effective sample size of STAN and overcome computational limitations of Bayesian hierarchical models for Big Data \cite{Gelman-Hill_2014}. STAN  is based on Hamiltonian Monte Carlo (HMC) \cite{Gelman-Hill_2014}, a Marcov chain Monte Carlo (MCMC) algorithm, which avoids the sensitivity to correlated parameters that plague many MCMC methods by introducing auxiliary momentum variables \cite{Homan_Gelman_NUTS_2014} as illustrated in Figure~\ref{fig:Hamiltonian}. HMC is dependent  on tuning the reciprocal relationship of the crucial parameters step size and desired number of steps. If the latter is too large, efficiency is low, if to small we see undesirable random walk behavior. To overcome this, STAN implemented the No-U-Turn Sampler (NUTS), a recursive algorithm to automate and optimize tuning the HMC \cite{Homan_Gelman_NUTS_2014}, also introduced by my co-mentor Dr. Gelman. If needed, we will run chains in parallel on Columbia Univ.'s mainframe computer cluster. 
+We will implement the Bayesian model in parallel in the ultra-fast probabilistic programming language software STAN developed by my co-mentor Dr. Gelman \cite{Stan_Software_2014}. Clever statistical transformations to sample in the standardized normal space will take full advantage of the faster convergence and higher effective sample size of STAN and overcome computational limitations of Bayesian hierarchical models for Big Data \cite{Gelman-Hill_2014}. STAN  is based on Hamiltonian Monte Carlo (HMC) \cite{Gelman-Hill_2014}, a Marcov chain Monte Carlo (MCMC) algorithm, which avoids the sensitivity to correlated parameters that plague many MCMC methods by introducing auxiliary momentum variables \cite{Homan_Gelman_NUTS_2014} as illustrated in Figure~\ref{fig:Hamiltonian}. HMC is dependent  on tuning the reciprocal relationship of the crucial parameters step size and desired number of steps. If the latter is too large, efficiency is low, if to small we see undesirable random walk behavior. To overcome this, Dr. Gelman's team developed and implemented the No-U-Turn Sampler (NUTS), a recursive algorithm to automate and optimize tuning the HMC \cite{Homan_Gelman_NUTS_2014}.
 
-\subparagraph*{Posterior predictive checking, predictive validations and model comparison}
-In evaluating its predictive performance, we will perform exploratory graphical \cite{Gelman2004posteriorpredictivechecks} and confirmatory formal posterior predictive assessment using discrepancies \cite{GelmanMengStern1996} to compare the patient test set to simulated replications from our fitted hierarchical Bayesian model, predictive validation to adjust for overfitting of our model and a sensitivity analysis of our priors on key model parameteters \cite{Gelman-Hill_2014,Gelman_predictive_2000}. We will compare our Bayesian Model to the frequentist algorithms using the minimum $\chi^{2}$ discrepancy, essentially equivalent to the classical
+\subparagraph*{Model checking and comparison}
+We will look at auto-correlation, trace-plots and calculate the Gelman and Rubin's MCMC Convergence Diagnostic $ \hat{R}$ among others to evaluate the the convergence of our Markov chain Monte Carlo (MCMC) simulations using shinyStan, the interactive visual application to explore and visualize Bayesian models, we developed \cite{shinystan-software:2015}. In evaluating our Bayesian model's predictive performance, we will perform exploratory graphical \cite{Gelman2004posteriorpredictivechecks} and confirmatory formal posterior predictive assessment using discrepancies \cite{GelmanMengStern1996} to compare the patient test set to simulated replications from our fitted hierarchical Bayesian model. For each draw of the estimated parameter $\theta$ from the posterior $p(\theta|y)$ we simulate data $y^{rep}$ from the posterior predictive distribution $ p(y^{rep}|y) $. Using the simulations of $y^{rep}$ we can make various graphical displays comparing our observed data to the replications:
+
+\begin{wrapfigure}{l}{.5\textwidth}
+\begin{equation} \label{eq:predictivecheck}
+ p(y^{rep}|y)  = \int \! p(y^{rep}|\theta) p(\theta|y) \, \mathrm{d}\theta 
+\end{equation}
+\end{wrapfigure}
+
+Equation (\ref{eq:predictivecheck}) basically says, if our model is a good fit, then data generated by the model using the estimated parameters should have a distribution similar to the original data we observed.  We illustrate this idea behind posterior predictive checking \cite{Gelman_predictive_2000} in Figure~\ref{fig:posteriorpredictivecheck}, generated in our software package shinyStan \cite{shinystan-software:2015}. Analogously, we will use predictive validation to adjust for overfitting of our model and perform a sensitivity analysis of our priors on key model parameteters \cite{Gelman-Hill_2014,Gelman_predictive_2000}.
+
+\begin{wrapfigure}{l}{.35\textwidth} 
+ \vspace{-10pt}
+ \includegraphics[scale=0.21]{Figures/posteriorpredictivecheck.png} 
+  \caption{\footnotesize Exploratory posterior predictive checking using our software shinyStan \cite{shinystan-software:2015}: Visual comparison of the distribution of observed data (shaded in blue) to the distributions of the data simulated (thin lines) suggest a reasonable model fit.}
+  \label{fig:posteriorpredictivecheck}
+\end{wrapfigure}
+
+\subparagraph*{Model comparison}
+Assessing the plausibility of a posited model (and its assumptions) and comparing it to alternative models
+Cross-validation is widely used to compare statistical models for estimating out-of-sample prediction error, but for multi-level data, should the test set not have some hierarchical structure itself \cite{wang_predictive_2014}? 
+
+
+We will compare our Bayesian Model to the frequentist algorithms using the minimum $\chi^{2}$ discrepancy, essentially equivalent to the classical
 goodness-of-fit test statistic \cite{GelmanMengStern1996}. For additional validation and as a safeguard against over-fitting, we will train our model with patient data from other participating institutions (Mayo Clinic Rochester and Florida) and test if our model outperforms the classical prediction models even in other ecological settings, both if the classical frequentist model is based on data from all institutions or the test institution (say Mayo Clinic Rochester) alone.
 
 We will compare models by parallel sampling \cite{Congdon_modelcomparison_2005}
+
 
 \subparagraph*{Technical approach}
 Boolean combinations of data matching and natural language processing of the prediction algorithms will be used to scan a real time copy of the hospital's clinical and administrative data including demographic, monitoring, pharmacy, laboratory, and physician notes for risk factors and physiological abnormality. Figure~\ref{fig:implementation} illustrates the implementation algorithm. The rule engine (implemented in Java) will send out the alert to providers.
