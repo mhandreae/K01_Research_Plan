@@ -1,0 +1,6 @@
+﻿TY  - WEB
+UR  - http://wiki.ihe.net/index.php?title=Retrieve_Form_for_Data_Capture
+ID  - 111
+ER  - 
+
+

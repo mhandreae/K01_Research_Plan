@@ -12,6 +12,7 @@
   Number                   = {2},
   Pages                    = {201--218},
   Volume                   = {17},
+
   Abstract                 = {Whilst meta-analysis is becoming a more commonplace statistical technique, Bayesian inference in meta-analysis requires complex computational techniques to be routinely applied. We consider simple approximations for the first and second moments of the parameters of a Bayesian random effects model for meta-analysis. These computationally inexpensive methods are based on simple analytical formulae that provide an efficient tool for a qualitative analysis and a quick numerical estimation of posterior quantities. They are shown to lead to sensible approximations in two examples of meta-analyses and to be in broad agreement with the more computationally intensive Gibbs sampling.},
   Institution              = {Department of Epidemiology and Public Health, University of Leicester, U.K. kral@le.ac.uk},
   Keywords                 = {Antibiotic Prophylaxis; Bayes Theorem; Dental Caries, prevention /&/ control; Dentifrices, therapeutic use; Digestive System, microbiology; Humans; Logistic Models; Meta-Analysis as Topic; Models, Statistical; Odds Ratio},
@@ -47,6 +48,28 @@
   Url                      = {http://dx.doi.org/10.1097/MLR.0b013e3181ef60d9}
 }
 
+@Article{Barr_23269131,
+  Title                    = {Clinical practice guidelines for the management of pain, agitation, and delirium in adult patients in the intensive care unit.},
+  Author                   = {{{American College of Critical Care Medicine}}},
+  Journal                  = {Crit Care Med},
+  Year                     = {2013},
+
+  Month                    = {Jan},
+  Number                   = {1},
+  Pages                    = {263--306},
+  Volume                   = {41},
+
+  __markedentry            = {[Michael Andreae:6]},
+  Abstract                 = {To revise the "Clinical Practice Guidelines for the Sustained Use of Sedatives and Analgesics in the Critically Ill Adult" published in Critical Care Medicine in 2002.The American College of Critical Care Medicine assembled a 20-person, multidisciplinary, multi-institutional task force with expertise in guideline development, pain, agitation and sedation, delirium management, and associated outcomes in adult critically ill patients. The task force, divided into four subcommittees, collaborated over 6 yr in person, via teleconferences, and via electronic communication. Subcommittees were responsible for developing relevant clinical questions, using the Grading of Recommendations Assessment, Development and Evaluation method (http://www.gradeworkinggroup.org) to review, evaluate, and summarize the literature, and to develop clinical statements (descriptive) and recommendations (actionable). With the help of a professional librarian and Refworks database software, they developed a Web-based electronic database of over 19,000 references extracted from eight clinical search engines, related to pain and analgesia, agitation and sedation, delirium, and related clinical outcomes in adult ICU patients. The group also used psychometric analyses to evaluate and compare pain, agitation/sedation, and delirium assessment tools. All task force members were allowed to review the literature supporting each statement and recommendation and provided feedback to the subcommittees. Group consensus was achieved for all statements and recommendations using the nominal group technique and the modified Delphi method, with anonymous voting by all task force members using E-Survey (http://www.esurvey.com). All voting was completed in December 2010. Relevant studies published after this date and prior to publication of these guidelines were referenced in the text. The quality of evidence for each statement and recommendation was ranked as high (A), moderate (B), or low/very low (C). The strength of recommendations was ranked as strong (1) or weak (2), and either in favor of (+) or against (-) an intervention. A strong recommendation (either for or against) indicated that the intervention's desirable effects either clearly outweighed its undesirable effects (risks, burdens, and costs) or it did not. For all strong recommendations, the phrase "We recommend …" is used throughout. A weak recommendation, either for or against an intervention, indicated that the trade-off between desirable and undesirable effects was less clear. For all weak recommendations, the phrase "We suggest …" is used throughout. In the absence of sufficient evidence, or when group consensus could not be achieved, no recommendation (0) was made. Consensus based on expert opinion was not used as a substitute for a lack of evidence. A consistent method for addressing potential conflict of interest was followed if task force members were coauthors of related research. The development of this guideline was independent of any industry funding.These guidelines provide a roadmap for developing integrated, evidence-based, and patient-centered protocols for preventing and treating pain, agitation, and delirium in critically ill patients.},
+  Institution              = {VA Palo Alto Health Care System, Palo Alto, and Stanford University School of Medicine, Stanford, CA, USA. barrj@stanford.edu},
+  Keywords                 = {Adult; Clinical Protocols; Critical Illness; Delirium, diagnosis/therapy; Humans; Hypnotics and Sedatives, adverse effects/pharmacology/therapeutic use; Intensive Care Units; Pain Management, methods; Pain Measurement, methods; Psychomotor Agitation, diagnosis/therapy; Risk Assessment, methods; United States},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pmid                     = {23269131},
+  Timestamp                = {2015.03.13}
+}
+
 @Article{Andreae_23811426,
   Title                    = {Regional anaesthesia to prevent chronic pain after surgery: a Cochrane systematic review and meta-analysis.},
   Author                   = {Andreae, M. H. and Andreae, D. A.},
@@ -59,7 +82,7 @@
   Volume                   = {111},
 
   __markedentry            = {[Michael Andreae:6]},
-  Abstract                 = {Regional anaesthesia may reduce the risk of persistent (chronic) pain after surgery, a frequent and debilitating condition. We compared regional anaesthesia vs conventional analgesia for the prevention of persistent postoperative pain (PPP).We searched the Cochrane Central Register of Controlled Trials, PubMed, EMBASE, and CINAHL from their inception to May 2012, limiting the results to randomized, controlled, clinical trials (RCTs), supplemented by a hand search in conference proceedings. We included RCTs comparing regional vs conventional analgesia with a pain outcome at 6 or 12 months. The two authors independently assessed methodological quality and extracted data. We report odds ratios (ORs) with 95\% confidence intervals (CIs) as our summary statistic based on random-effects models. We grouped studies according to surgical interventions.We identified 23 RCTs. We pooled data from 250 participants in three trials after thoracotomy with outcomes at 6 months. Data favoured epidural anaesthesia for the prevention of PPP with an OR of 0.33 (95\% CI 0.20-0.56). We pooled two studies investigating paravertebral block for breast cancer surgery; pooled data of 89 participants with outcomes 6 months favoured paravertebral block with an OR of 0.37 (95\% CI 0.14-0.94). Adverse effects were reported sparsely.Epidural anaesthesia and paravertebral block, respectively, may prevent PPP after thoracotomy and breast cancer surgery in about one out of every four to five patients treated. Small numbers, performance bias, attrition, and incomplete outcome data especially at 12 months weaken our conclusions.},
+  Abstract                 = {Regional anaesthesia may reduce the risk of persistent (chronic) pain after surgery, a frequent and debilitating condition. We compared regional anaesthesia vs conventional analgesia for the prevention of persistent postoperative pain (PPP).We searched the Cochrane Central Register of Controlled Trials, PubMed, EMBASE, and CINAHL from their inception to May 2012, limiting the results to randomized, controlled, clinical trials (RCTs), supplemented by a hand search in conference proceedings. We included RCTs comparing regional vs conventional analgesia with a pain outcome at 6 or 12 months. The two authors independently assessed methodological quality and extracted data. We report odds ratios (ORs) with 95\% confidence intervals (CIs) as our summary statistic based on random-effects models. We grouped studies according to surgical interventions.We identified 23 RCTs. We pooled data from 250 participants in three trials after thoracotomy with outcomes at 6 months. Data favoured epidural anaesthesia for the prevention of PPP with an OR of 0.33 (95\% CI 0.20-0.56). We pooled two studies investigating paravertebral block for breast cancer surgery; pooled data of 89 participants with outcomes at 6 months favoured paravertebral block with an OR of 0.37 (95\% CI 0.14-0.94). Adverse effects were reported sparsely.Epidural anaesthesia and paravertebral block, respectively, may prevent PPP after thoracotomy and breast cancer surgery in about one out of every four to five patients treated. Small numbers, performance bias, attrition, and incomplete outcome data especially at 12 months weaken our conclusions.},
   Doi                      = {10.1093/bja/aet213},
   Institution              = {Department of Anesthesiology, Montefiore Medical Center, Albert Einstein College of Medicine, New York, NY, USA.},
   Keywords                 = {Anesthesia, Conduction, methods; Anesthesia, Epidural; Chronic Pain, prevention /&/ control; Data Interpretation, Statistical; Follow-Up Studies; Humans; Nerve Block; Odds Ratio; Pain, Postoperative, prevention /&/ control; Publication Bias; Randomized Controlled Trials as Topic; Surgical Procedures, Operative; Treatment Outcome},
@@ -67,8 +90,9 @@
   Medline-pst              = {ppublish},
   Owner                    = {Michael Andreae},
   Pii                      = {aet213},
+  Pmc                      = {PMC3793661},
   Pmid                     = {23811426},
-  Timestamp                = {2015.03.05},
+  Timestamp                = {2015.03.19},
   Url                      = {http://dx.doi.org/10.1093/bja/aet213}
 }
 
@@ -80,7 +104,6 @@
   Pages                    = {CD007105},
   Volume                   = {10},
 
-  __markedentry            = {[Michael Andreae:6]},
   Abstract                 = {Regional anaesthesia may reduce the rate of persistent (chronic) pain after surgery, a frequent and debilitating condition.To compare local anaesthetics and regional anaesthesia versus conventional analgesia for the prevention of persistent pain six or 12 months after surgery.We searched the Cochrane Central Register of Controlled Trials (CENTRAL) (The Cochrane Library 2012, Issue 4), PubMed (1966 to April 2012), EMBASE (1966 to May 2012) and CINAHL (1966 to May 2012) without any language restriction. We used a combination of free text search and controlled vocabulary search. The results were limited to randomized controlled clinical trials (RCTs). We conducted a handsearch in reference lists of included trials, review articles and conference abstracts.We included RCTs comparing local anaesthetics or regional anaesthesia versus conventional analgesia with a pain outcome at six or 12 months after surgery.Two authors independently assessed trial quality and extracted data, including information on adverse events. We contacted study authors for additional information. Results are presented as pooled odds ratios (OR) with 95\% confidence intervals (CI), based on random-effects models (inverse variance method). We grouped studies according to surgical interventions. We employed the Chi(2) test and calculated the I(2) statistic to investigate study heterogeneity.We identified 23 RCTs studying local anaesthetics or regional anaesthesia for the prevention of persistent (chronic) pain after surgery. Data from a total of 1090 patients with outcomes at six months and of 441 patients with outcomes at 12 months were presented. No study included children. We pooled data from 250 participants after thoracotomy, with outcomes at six months. Data favoured regional anaesthesia for the prevention of chronic pain at six months after thoracotomy with an OR of 0.33 (95\% CI 0.20 to 0.56). We pooled two studies on paravertebral block for breast cancer surgery; the pooled data of 89 participants with outcomes at five to six months favoured paravertebral block with an OR of 0.37 (95\% CI 0.14 to 0.94).The methodological quality of the included studies was intermediate. Adverse effects were not studied systematically and were reported sparsely. Clinical heterogeneity, attrition and sparse outcome data hampered the assessment of effects, especially at 12 months.Epidural anaesthesia may reduce the risk of developing chronic pain after thoracotomy in about one patient out of every four patients treated. Paravertebral block may reduce the risk of chronic pain after breast cancer surgery in about one out of every five women treated. Our conclusions are significantly weakened by performance bias, shortcomings in allocation concealment, considerable attrition and incomplete outcome data. We caution that our evidence synthesis is based on only a few, small studies. More studies with high methodological quality, addressing various types of surgery and different age groups, including children, are needed.},
   Doi                      = {10.1002/14651858.CD007105.pub2},
   Institution              = {Department of Anesthesiology, Montefiore Medical Center, Albert Einstein College of Medicine, New York, NY, USA.mhandreae@gmail.com.},
@@ -144,6 +167,13 @@
   Pages                    = {370--418},
 
   Publisher                = {JSTOR}
+}
+
+@InProceedings{Buja1999inference,
+  Title                    = {Inference for data visualization},
+  Author                   = {Buja, Andreas and Cook, Dianne and Swayne, D},
+  Booktitle                = {Talk given at Joint Statistical Meetings},
+  Year                     = {1999}
 }
 
 @Article{Campbell_10987780,
@@ -274,6 +304,30 @@
   Url                      = {http://dx.doi.org/10.1111/biom.12121}
 }
 
+@Article{Dave_20819960,
+  Title                    = {Incidence of maternal and paternal depression in primary care: a cohort study using a primary care database.},
+  Author                   = {Dav{\'{e}}, Shreya and Petersen, Irene and Sherr, Lorraine and Nazareth, Irwin},
+  Journal                  = {Arch Pediatr Adolesc Med},
+  Year                     = {2010},
+
+  Month                    = {Nov},
+  Number                   = {11},
+  Pages                    = {1038--1044},
+  Volume                   = {164},
+
+  Abstract                 = {To examine incidence, trends, and correlates of parental depression in primary care from 0 to 12 years of child age.Prospective cohort study.Primary care records from more than 350 general practices in The Health Improvement Network database from 1993 to 2007.A total of 86 957 mother, father, and child triads identified in The Health Improvement Network database by linking mothers and babies and then identifying an adult household man. Depressed parents were identified using Read code entries for depression and antidepressant prescriptions.Child age, parental age at the birth, and area deprivation quintile.Incidence rates for maternal and paternal episodes of depression.Overall incidences of depression from the birth of the child up to age 12 years were 7.53 per 100 person-years for mothers and 2.69 per 100 person-years for fathers. Depression was highest in the first year post partum (13.93 and 3.56 per 100 person-years among mothers and fathers, respectively). By 12 years of child age, 39\% of mothers and 21\% of fathers had experienced an episode of depression. A history of depression, lower parental age at the birth of the child, and higher social deprivation were associated with a higher incidence of parental depression.Parents are at highest risk for depression in the first year after the birth of their child. Parents with a history of depression, younger parents, and those from deprived areas are particularly vulnerable to depression. There is a need for appropriate recognition and management of parental depression in primary care.},
+  Doi                      = {10.1001/archpediatrics.2010.184},
+  Institution              = {Research Department of Primary Care and Population Health, University College London, Royal Free Hospital, Rowland Hill Street, London, England.},
+  Keywords                 = {Adult; Antidepressive Agents, therapeutic use; Child; Child, Preschool; Depression, drug therapy/epidemiology; Fathers, psychology; Female; Humans; Infant; Infant, Newborn; Longitudinal Studies; Male; Mothers, psychology; Multivariate Analysis; Parent-Child Relations; Primary Health Care; Prospective Studies; Risk Factors},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {2010.184},
+  Pmid                     = {20819960},
+  Timestamp                = {2015.03.12},
+  Url                      = {http://dx.doi.org/10.1001/archpediatrics.2010.184}
+}
+
 @Article{Davis_7650822,
   Title                    = {Changing physician performance. A systematic review of the effect of continuing medical education strategies.},
   Author                   = {Davis, D. A. and Thomson, M. A. and Oxman, A. D. and Haynes, R. B.},
@@ -321,6 +375,27 @@
   Url                      = {http://dx.doi.org/10.1177/1077558709332440}
 }
 
+@Article{DeLong_3203132,
+  Title                    = {Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach.},
+  Author                   = {DeLong, E. R. and DeLong, D. M. and Clarke-Pearson, D. L.},
+  Journal                  = {Biometrics},
+  Year                     = {1988},
+
+  Month                    = {Sep},
+  Number                   = {3},
+  Pages                    = {837--845},
+  Volume                   = {44},
+
+  Abstract                 = {Methods of evaluating and comparing the performance of diagnostic tests are of increasing importance as new tests are developed and marketed. When a test is based on an observed variable that lies on a continuous or graded scale, an assessment of the overall value of the test can be made through the use of a receiver operating characteristic (ROC) curve. The curve is constructed by varying the cutpoint used to determine which values of the observed variable will be considered abnormal and then plotting the resulting sensitivities against the corresponding false positive rates. When two or more empirical curves are constructed based on tests performed on the same individuals, statistical analysis on differences between curves must take into account the correlated nature of the data. This paper presents a nonparametric approach to the analysis of areas under correlated ROC curves, by using the theory on generalized U-statistics to generate an estimated covariance matrix.},
+  Institution              = {Quintiles, Inc., Chapel Hill, North Carolina 27514.},
+  Keywords                 = {Algorithms; Analysis of Variance; Female; Humans; Intestinal Obstruction, surgery; Models, Statistical; Ovarian Neoplasms, complications; Predictive Value of Tests; ROC Curve},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pmid                     = {3203132},
+  Timestamp                = {2015.03.11}
+}
+
 @Article{Duncan_16710766,
   Title                    = {Individualized performance feedback to increase prenatal domestic violence screening.},
   Author                   = {Duncan, Mary M. and McIntosh, Patricia A. and Stayton, Catherine D. and Hall, Charles B.},
@@ -343,6 +418,78 @@
   Pmid                     = {16710766},
   Timestamp                = {2015.02.10},
   Url                      = {http://dx.doi.org/10.1007/s10995-006-0076-0}
+}
+
+@Article{Rivers_11794169,
+  Title                    = {Early goal-directed therapy in the treatment of severe sepsis and septic shock.},
+  Author                   = {{{Early Goal-Directed Therapy Collaborative Group}}},
+  Journal                  = {N Engl J Med},
+  Year                     = {2001},
+
+  Month                    = {Nov},
+  Number                   = {19},
+  Pages                    = {1368--1377},
+  Volume                   = {345},
+
+  Abstract                 = {Goal-directed therapy has been used for severe sepsis and septic shock in the intensive care unit. This approach involves adjustments of cardiac preload, afterload, and contractility to balance oxygen delivery with oxygen demand. The purpose of this study was to evaluate the efficacy of early goal-directed therapy before admission to the intensive care unit.We randomly assigned patients who arrived at an urban emergency department with severe sepsis or septic shock to receive either six hours of early goal-directed therapy or standard therapy (as a control) before admission to the intensive care unit. Clinicians who subsequently assumed the care of the patients were blinded to the treatment assignment. In-hospital mortality (the primary efficacy outcome), end points with respect to resuscitation, and Acute Physiology and Chronic Health Evaluation (APACHE II) scores were obtained serially for 72 hours and compared between the study groups.Of the 263 enrolled patients, 130 were randomly assigned to early goal-directed therapy and 133 to standard therapy; there were no significant differences between the groups with respect to base-line characteristics. In-hospital mortality was 30.5 percent in the group assigned to early goal-directed therapy, as compared with 46.5 percent in the group assigned to standard therapy (P = 0.009). During the interval from 7 to 72 hours, the patients assigned to early goal-directed therapy had a significantly higher mean (+/-SD) central venous oxygen saturation (70.4+/-10.7 percent vs. 65.3+/-11.4 percent), a lower lactate concentration (3.0+/-4.4 vs. 3.9+/-4.4 mmol per liter), a lower base deficit (2.0+/-6.6 vs. 5.1+/-6.7 mmol per liter), and a higher pH (7.40+/-0.12 vs. 7.36+/-0.12) than the patients assigned to standard therapy (P < or = 0.02 for all comparisons). During the same period, mean APACHE II scores were significantly lower, indicating less severe organ dysfunction, in the patients assigned to early goal-directed therapy than in those assigned to standard therapy (13.0+/-6.3 vs. 15.9+/-6.4, P < 0.001).Early goal-directed therapy provides significant benefits with respect to outcome in patients with severe sepsis and septic shock.},
+  Institution              = {Department of Emergency Medicine, Henry Ford Health Systems, Case Western Reserve University, Detroit, MI 48202, USA. erivers1@hfhs.org},
+  Keywords                 = {APACHE; Aged; Algorithms; Blood Pressure; Cardiovascular Agents, therapeutic use; Emergency Service, Hospital; Erythrocyte Transfusion; Female; Fluid Therapy; Health Resources, utilization; Hemodynamics; Hospital Mortality; Hospitals, Urban; Humans; Male; Middle Aged; Monitoring, Physiologic; Oxygen, blood; Prospective Studies; Sepsis, physiopathology/therapy; Shock, Septic, physiopathology/therapy; Single-Blind Method; Systemic Inflammatory Response Syndrome, physiopathology/therapy; Treatment Outcome},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pmid                     = {11794169},
+  Timestamp                = {2015.02.11}
+}
+
+@Book{Efron_largescale_2013,
+  Title                    = {Large-scale inference: empirical Bayes methods for estimation, testing, and prediction},
+  Author                   = {Efron, Bradley},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2013},
+  Volume                   = {1}
+}
+
+@Book{Efron_Bayes_v_Freqentisit,
+  Title                    = {Modern science and the Bayesian-frequentist controversy},
+  Author                   = {Efron, Bradley},
+  Publisher                = {Division of Biostatistics, Stanford University},
+  Year                     = {2005}
+}
+
+@Article{Efron_1975,
+  Title                    = {Data analysis using Stein's estimator and its generalizations},
+  Author                   = {Efron, Bradley and Morris, Carl},
+  Journal                  = {Journal of the American Statistical Association},
+  Year                     = {1975},
+  Number                   = {350},
+  Pages                    = {311--319},
+  Volume                   = {70},
+
+  Doi                      = {http://dx.doi.org/10.1080/01621459.1975.10479864},
+  Publisher                = {Taylor \& Francis Group},
+  Url                      = {http://www.tandfonline.com/doi/pdf/10.1080/01621459.1975.10479864}
+}
+
+@Book{Efron_Stein_1977,
+  Title                    = {Stein's paradox in statistics},
+  Author                   = {Efron, Bradley and Morris, Carl N},
+  Publisher                = {WH Freeman},
+  Year                     = {1977}
+}
+
+@Article{Stein_paradox_Scientific_American,
+  Title                    = {Stein's paradox in statistics},
+  Author                   = {Efron, Bradley and Morris, Carl N},
+  Journal                  = {Scientific American},
+  Year                     = {1977},
+  Number                   = {5},
+  Pages                    = {119-127},
+  Volume                   = {263},
+
+  Doi                      = {http://dx.doi.org/10.1038%2Fscientificamerican0577-119},
+  Owner                    = {Michael Andreae},
+  Timestamp                = {2015.03.19},
+  Url                      = {http://www.nature.com/scientificamerican/journal/v236/n5/pdf/scientificamerican0577-119.pdf}
 }
 
 @Article{Fairclough9549823,
@@ -386,6 +533,7 @@
   Number                   = {6},
   Pages                    = {1902--1904},
   Volume                   = {98},
+
   Doi                      = {10.1016/j.athoracsur.2014.09.039},
   File                     = {:C\:\\Users\\Michael Andreae\\Dropbox\\References\\25468080.pdf:PDF},
   Institution              = {Division of Cardiac Surgery, Massachusetts General Hospital, Boston, Massachusetts.},
@@ -452,7 +600,21 @@
   Year                     = {2000},
   Pages                    = {247--268},
 
+  File                     = {:C\:\\Users\\Michael Andreae\\Dropbox\\References\\Gelman_predictive_2000.pdf:PDF},
   Publisher                = {JSTOR}
+}
+
+@Article{Gelman_Aki_2014predictive,
+  Title                    = {Understanding predictive information criteria for Bayesian models},
+  Author                   = {Gelman, Andrew and Hwang, Jessica and Vehtari, Aki},
+  Journal                  = {Statistics and Computing},
+  Year                     = {2014},
+  Number                   = {6},
+  Pages                    = {997--1016},
+  Volume                   = {24},
+
+  Publisher                = {Springer},
+  Url                      = {http://www.stat.columbia.edu/~gelman/research/published/waic_understand3.pdf}
 }
 
 @Article{Gelman_predictive_information_criterion_2014,
@@ -495,6 +657,19 @@
   Publisher                = {C/O DR SW CHENG, MANAG EDITOR DEPT STAT UNIV MANTOBA, WINNIPEG MB R3T 2N2, CANADA}
 }
 
+@Article{Gelman_Cauchy_2006,
+  Title                    = {Prior distributions for variance parameters in hierarchical models (comment on article by Browne and Draper)},
+  Author                   = {Gelman, Andrew and others},
+  Journal                  = {Bayesian analysis},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {515--534},
+  Volume                   = {1},
+
+  Publisher                = {International Society for Bayesian Analysis},
+  Url                      = {http://projecteuclid.org/euclid.ba/1340371048}
+}
+
 @Article{Gelman2001imputation,
   Title                    = {Using conditional distributions for missing-data imputation},
   Author                   = {Gelman, Andrew and Raghunathan, Trivellore E},
@@ -504,6 +679,30 @@
   Volume                   = {3},
 
   File                     = {:C\:\\Users\\Michael Andreae\\Dropbox\\References\\Gelman2001imputation.pdf:PDF}
+}
+
+@Article{Girard_18191684,
+  Title                    = {Efficacy and safety of a paired sedation and ventilator weaning protocol for mechanically ventilated patients in intensive care (Awakening and Breathing Controlled trial): a randomised controlled trial.},
+  Author                   = {Girard, Timothy D. and Kress, John P. and Fuchs, Barry D. and Thomason, Jason W W. and Schweickert, William D. and Pun, Brenda T. and Taichman, Darren B. and Dunn, Jan G. and Pohlman, Anne S. and Kinniry, Paul A. and Jackson, James C. and Canonico, Angelo E. and Light, Richard W. and Shintani, Ayumi K. and Thompson, Jennifer L. and Gordon, Sharon M. and Hall, Jesse B. and Dittus, Robert S. and Bernard, Gordon R. and Ely, E Wesley},
+  Journal                  = {Lancet},
+  Year                     = {2008},
+
+  Month                    = {Jan},
+  Number                   = {9607},
+  Pages                    = {126--134},
+  Volume                   = {371},
+
+  Abstract                 = {Approaches to removal of sedation and mechanical ventilation for critically ill patients vary widely. Our aim was to assess a protocol that paired spontaneous awakening trials (SATs)-ie, daily interruption of sedatives-with spontaneous breathing trials (SBTs).In four tertiary-care hospitals, we randomly assigned 336 mechanically ventilated patients in intensive care to management with a daily SAT followed by an SBT (intervention group; n=168) or with sedation per usual care plus a daily SBT (control group; n=168). The primary endpoint was time breathing without assistance. Data were analysed by intention to treat. This study is registered with ClinicalTrials.gov, number NCT00097630.One patient in the intervention group did not begin their assigned treatment protocol because of withdrawal of consent and thus was excluded from analyses and lost to follow-up. Seven patients in the control group discontinued their assigned protocol, and two of these patients were lost to follow-up. Patients in the intervention group spent more days breathing without assistance during the 28-day study period than did those in the control group (14.7 days vs 11.6 days; mean difference 3.1 days, 95\% CI 0.7 to 5.6; p=0.02) and were discharged from intensive care (median time in intensive care 9.1 days vs 12.9 days; p=0.01) and the hospital earlier (median time in the hospital 14.9 days vs 19.2 days; p=0.04). More patients in the intervention group self-extubated than in the control group (16 patients vs six patients; 6.0\% difference, 95\% CI 0.6\% to 11.8\%; p=0.03), but the number of patients who required reintubation after self-extubation was similar (five patients vs three patients; 1.2\% difference, 95\% CI -5.2\% to 2.5\%; p=0.47), as were total reintubation rates (13.8\%vs 12.5\%; 1.3\% difference, 95\% CI -8.6\% to 6.1\%; p=0.73). At any instant during the year after enrolment, patients in the intervention group were less likely to die than were patients in the control group (HR 0.68, 95\% CI 0.50 to 0.92; p=0.01). For every seven patients treated with the intervention, one life was saved (number needed to treat was 7.4, 95\% CI 4.2 to 35.5).Our results suggest that a wake up and breathe protocol that pairs daily spontaneous awakening trials (ie, interruption of sedatives) with daily spontaneous breathing trials results in better outcomes for mechanically ventilated patients in intensive care than current standard approaches and should become routine practice.},
+  Doi                      = {10.1016/S0140-6736(08)60105-1},
+  Institution              = {Department of Medicine, Division of Allergy, Pulmonary, and Critical Care Medicine, Vanderbilt University School of Medicine, Nashville, TN 37232-8300, USA. timothy.girard@vanderbilt.edu},
+  Keywords                 = {Aged; Conscious Sedation; Critical Care, methods; Female; Humans; Intensive Care Units; Male; Middle Aged; Respiration; Respiration, Artificial; Safety; Ventilator Weaning},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {S0140-6736(08)60105-1},
+  Pmid                     = {18191684},
+  Timestamp                = {2015.03.13},
+  Url                      = {http://dx.doi.org/10.1016/S0140-6736(08)60105-1}
 }
 
 @Article{Glasgow_17150029,
@@ -638,6 +837,28 @@
   Url                      = {http://dx.doi.org/10.1007/s00134-002-1496-y}
 }
 
+@Article{Himes_19261943,
+  Title                    = {Prediction of chronic obstructive pulmonary disease (COPD) in asthma patients using electronic medical records.},
+  Author                   = {Himes, Blanca E. and Dai, Yi and Kohane, Isaac S. and Weiss, Scott T. and Ramoni, Marco F.},
+  Journal                  = {J Am Med Inform Assoc},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {371--379},
+  Volume                   = {16},
+
+  Abstract                 = {Identify clinical factors that modulate the risk of progression to COPD among asthma patients using data extracted from electronic medical records.Demographic information and comorbidities from adult asthma patients who were observed for at least 5 years with initial observation dates between 1988 and 1998, were extracted from electronic medical records of the Partners Healthcare System using tools of the National Center for Biomedical Computing "Informatics for Integrating Biology to the Bedside" (i2b2).A predictive model of COPD was constructed from a set of 9,349 patients (843 cases, 8,506 controls) using Bayesian networks. The model's predictive accuracy was tested using it to predict COPD in a future independent set of asthma patients (992 patients; 46 cases, 946 controls), who had initial observation dates between 1999 and 2002.A Bayesian network model composed of age, sex, race, smoking history, and 8 comorbidity variables is able to predict COPD in the independent set of patients with an accuracy of 83.3\%, computed as the area under the Receiver Operating Characteristic curve (AUROC).Our results demonstrate that data extracted from electronic medical records can be used to create predictive models. With improvements in data extraction and inclusion of more variables, such models may prove to be clinically useful.},
+  Doi                      = {10.1197/jamia.M2846},
+  Institution              = {Channing Laboratory, 181 Longwood Ave, Boston, MA 02115, USA. blanca_himes@hms.harvard.edu},
+  Keywords                 = {Aged; Asthma, complications; Bayes Theorem; Comorbidity; Disease Progression; Female; Humans; Male; Medical Records Systems, Computerized; Middle Aged; Models, Biological; Multivariate Analysis; Natural Language Processing; Neural Networks (Computer); Pulmonary Disease, Chronic Obstructive, etiology; ROC Curve; Risk Factors},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {M2846},
+  Pmid                     = {19261943},
+  Timestamp                = {2015.03.13},
+  Url                      = {http://dx.doi.org/10.1197/jamia.M2846}
+}
+
 @Article{Homan_Gelman_NUTS_2014,
   Title                    = {The no-U-turn sampler: Adaptively setting path lengths in Hamiltonian Monte Carlo},
   Author                   = {Homan, Matthew D and Gelman, Andrew},
@@ -681,7 +902,6 @@
   Pages                    = {587--590},
   Volume                   = {21},
 
-  __markedentry            = {[Michael Andreae:]},
   Abstract                 = {The New York City Clinical Data Research Network (NYC-CDRN), funded by the Patient-Centered Outcomes Research Institute (PCORI), brings together 22 organizations including seven independent health systems to enable patient-centered clinical research, support a national network, and facilitate learning healthcare systems. The NYC-CDRN includes a robust, collaborative governance and organizational infrastructure, which takes advantage of its participants' experience, expertise, and history of collaboration. The technical design will employ an information model to document and manage the collection and transformation of clinical data, local institutional staging areas to transform and validate data, a centralized data processing facility to aggregate and share data, and use of common standards and tools. We strive to ensure that our project is patient-centered; nurtures collaboration among all stakeholders; develops scalable solutions facilitating growth and connections; chooses simple, elegant solutions wherever possible; and explores ways to streamline the administrative and regulatory approval process across sites.},
   Institution              = {Clinical Directors Network, New York, New York, USA The Rockefeller University, New York, New York, USA.},
   Keywords                 = {Computer Communication Networks, organization /&/ administration; Electronic Health Records, organization /&/ administration; Humans; Information Dissemination; New York City; Outcome Assessment (Health Care), organization /&/ administration; Patient-Centered Care},
@@ -749,6 +969,40 @@
   Url                      = {http://dx.doi.org/10.1037/a0029146}
 }
 
+@InProceedings{Lee2013predicting,
+  Title                    = {Predicting the onset of bullous pemphigoid with co-morbidities: A survey based on a nationwide medical database},
+  Author                   = {Lee, Ding-Dar and Yang, Meng-Han and Yang, Fang-Chi and Kuo, Chu-Cheng},
+  Booktitle                = {2013 IEEE International Conference on Bioinformatics and Biomedicine},
+  Year                     = {2013},
+  Organization             = {IEEE},
+  Pages                    = {30--37}
+}
+
+@Article{Levy_23103175,
+  Title                    = {Outcomes of the Surviving Sepsis Campaign in intensive care units in the USA and Europe: a prospective cohort study.},
+  Author                   = {Levy, Mitchell M. and Artigas, Antonio and Phillips, Gary S. and Rhodes, Andrew and Beale, Richard and Osborn, Tiffany and Vincent, Jean-Louis and Townsend, Sean and Lemeshow, Stanley and Dellinger, R Phillip},
+  Journal                  = {Lancet Infect Dis},
+  Year                     = {2012},
+
+  Month                    = {Dec},
+  Number                   = {12},
+  Pages                    = {919--924},
+  Volume                   = {12},
+
+  __markedentry            = {[Michael Andreae:]},
+  Abstract                 = {Mortality from severe sepsis and septic shock differs across continents, countries, and regions. We aimed to use data from the Surviving Sepsis Campaign (SSC) to compare models of care and outcomes for patients with severe sepsis and septic shock in the USA and Europe.The SSC was introduced into more than 200 sites in Europe and the USA. All patients identified with severe sepsis and septic shock in emergency departments or hospital wards and admitted to intensive care units (ICUs), and those with sepsis in ICUs were entered into the SSC database. Patients entered into the database from its launch in January, 2005, through January, 2010, in units with at least 20 patients and 3 months of enrolment of patients were included in this analysis. Patients included in the cohort were limited to those entered in the first 4 years at every site. We used random-effects logistic regression to estimate the hospital mortality odds ratio (OR) for Europe relative to the USA. We used random-effects linear regression to find the relation between lengths of stay in hospital and ICU and geographic region.25 375 patients were included in the cohort. The USA included 107 sites with 18 766 (74\%) patients, and Europe included 79 hospital sites with 6609 (26\%) patients. In the USA, 12 218 (65·1\%) were admitted to the ICU from the emergency department whereas in Europe, 3405 (51·5\%) were admitted from the wards. The median stay on the hospital wards before ICU admission was longer in Europe than in the USA (1·0 vs 0·1 days, difference 0·9, 95\% CI 0·8-0·9). Raw hospital mortality was higher in Europe than in the USA (41·1\%vs 28·3\%, difference 12·8, 95\% CI 11·5-14·7). The median length of stay in ICU (7·8 vs 4·2 days, 3·6, 3·3-3·7) and hospital (22·8 vs 10·5 days, 12·3, 11·9-12·8) was longer in Europe than in the USA. Adjusted mortality in Europe was not significantly higher than that in the USA (32·3\%vs 31·3\%, 1·0, -1·7 to 3·7, p=0·468). Complete compliance with all applicable elements of the sepsis resuscitation bundle was higher in the USA than in Europe (21·6\%vs 18·4\%, 3·2, 2·2-4·4).The significant difference in unadjusted mortality and the fact that this difference disappears with severity adjustment raise important questions about the effect of the approach to critical care in Europe compared with that in the USA. The effect of ICU bed availability on outcomes in patients with severe sepsis and septic shock requires further investigation.},
+  Doi                      = {10.1016/S1473-3099(12)70239-6},
+  Institution              = {Division of Pulmonary and Critical Care Medicine, Warren Alpert Medical School of Brown University, Providence, RI 02906, USA. mitchell_levy@brown.edu},
+  Keywords                 = {Cohort Studies; Europe, epidemiology; Guideline Adherence; Humans; Intensive Care Units, statistics /&/ numerical data; Length of Stay; Prospective Studies; Regression Analysis; Sepsis, mortality/therapy; Shock, Septic, mortality/therapy; Treatment Outcome; United States, epidemiology},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {S1473-3099(12)70239-6},
+  Pmid                     = {23103175},
+  Timestamp                = {2015.03.13},
+  Url                      = {http://dx.doi.org/10.1016/S1473-3099(12)70239-6}
+}
+
 @Article{Likosky_20488928,
   Title                    = {Effect of the perioperative blood transfusion and blood conservation in cardiac surgery clinical practice guidelines of the Society of Thoracic Surgeons and the Society of Cardiovascular Anesthesiologists upon clinical practices.},
   Author                   = {Likosky, Donald S. and FitzGerald, Daniel C. and Groom, Robert C. and Jones, Dwayne K. and Baker, Robert A. and Shann, Kenneth G. and Mazer, C David and Spiess, Bruce D. and Body, Simon C.},
@@ -771,6 +1025,28 @@
   Pmid                     = {20488928},
   Timestamp                = {2015.03.02},
   Url                      = {http://dx.doi.org/10.1213/ANE.0b013e3181e329f1}
+}
+
+@Article{Man_23272239,
+  Title                    = {Antiepileptic drugs during pregnancy in primary care: a UK population based study.},
+  Author                   = {Man, Shuk-Li and Petersen, Irene and Thompson, Mary and Nazareth, Irwin},
+  Journal                  = {PLoS One},
+  Year                     = {2012},
+  Number                   = {12},
+  Pages                    = {e52339},
+  Volume                   = {7},
+
+  Abstract                 = {Antiepileptic drugs (AEDs) are commonly prescribed for epilepsy and bipolar disorder but little is known about their use in pregnancy. We examined secular trends in AED prescribing in pregnancy and pregnancy as a determinant for stopping AED prescribing.We identified 174,055 pregnancies from The Health Improvement Network UK primary care database. Secular trends in AED prescribing during pregnancy were examined between 1994 and 2009. We used Cox's regression analyses to compare time to discontinuation of AED prescriptions between pregnant and non-pregnant women and to identify predictors of discontinuation of AEDs in pregnancy.Prescribing of carbamazepine and sodium valproate have declined since 1994 despite being the most commonly prescribed AEDs in pregnancy up to 2004. Prescribing of lamotrigine in pregnancy has steadily increased and has been the most popular AED prescribed in pregnancy since 2004. Pregnant women with epilepsy were twice as likely to stop receiving AEDs (Hazard Ratio (HR) 2.00, 95\% Confidence Interval (CI) 1.62-2.47) when compared to non-pregnant women and for women with bipolar disorder this was even higher (HR 3.07, 95\% CI 2.04-4.62). For pregnant women with epilepsy, those receiving AEDs less regularly before pregnancy were more likely to stop receiving AEDs in pregnancy.Lamotrigine has been increasingly prescribed in pregnancy over older AEDs namely carbamazepine and sodium valproate. Pregnancy is a strong determinant for the discontinuation of AED prescribing particularly for women with bipolar disorder.},
+  Doi                      = {10.1371/journal.pone.0052339},
+  Institution              = {Research Department of Primary Care and Population Health, University College London, London, United Kingdom. shuk-li.man.10@ucl.ac.uk},
+  Keywords                 = {Adult; Anticonvulsants, therapeutic use; Bipolar Disorder, drug therapy; Cohort Studies; Epilepsy, drug therapy; Female; Humans; Physician's Practice Patterns, trends; Pregnancy; Primary Health Care},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {PONE-D-12-26839},
+  Pmid                     = {23272239},
+  Timestamp                = {2015.03.12},
+  Url                      = {http://dx.doi.org/10.1371/journal.pone.0052339}
 }
 
 @Article{McQuillan_9632403,
@@ -810,6 +1086,18 @@
   Fjournal                 = {Statistical Science},
   Publisher                = {The Institute of Mathematical Statistics},
   Url                      = {http://dx.doi.org/10.1214/ss/1177010269}
+}
+
+@Article{StanislawUlam_1949,
+  Title                    = {The monte carlo method},
+  Author                   = {Metropolis, Nicholas and Ulam, Stanislaw},
+  Journal                  = {Journal of the American statistical association},
+  Year                     = {1949},
+  Number                   = {247},
+  Pages                    = {335--341},
+  Volume                   = {44},
+
+  Publisher                = {Taylor \& Francis Group}
 }
 
 @Article{Mitchell_20378235,
@@ -882,6 +1170,51 @@
   Url                      = {http://dx.doi.org/10.1016/j.resuscitation.2005.04.016}
 }
 
+@Article{Newcombe_22890972,
+  Title                    = {A comparison of Bayesian and frequentist approaches to incorporating external information for the prediction of prostate cancer risk.},
+  Author                   = {Newcombe, Paul J. and Reck, Brian H. and Sun, Jielin and Platek, Greg T. and Verzilli, Claudio and Kader, A Karim and Kim, Seong-Tae and Hsu, Fang-Chi and Zhang, Zheng and Zheng, S Lilly and Mooser, Vincent E. and Condreay, Lynn D. and Spraggs, Colin F. and Whittaker, John C. and Rittmaster, Roger S. and Xu, Jianfeng},
+  Journal                  = {Genet Epidemiol},
+  Year                     = {2012},
+
+  Month                    = {Jan},
+  Number                   = {1},
+  Pages                    = {71--83},
+  Volume                   = {36},
+
+  Abstract                 = {We present the most comprehensive comparison to date of the predictive benefit of genetics in addition to currently used clinical variables, using genotype data for 33 single-nucleotide polymorphisms (SNPs) in 1,547 Caucasian men from the placebo arm of the REduction by DUtasteride of prostate Cancer Events (REDUCE®) trial. Moreover, we conducted a detailed comparison of three techniques for incorporating genetics into clinical risk prediction. The first method was a standard logistic regression model, which included separate terms for the clinical covariates and for each of the genetic markers. This approach ignores a substantial amount of external information concerning effect sizes for these Genome Wide Association Study (GWAS)-replicated SNPs. The second and third methods investigated two possible approaches to incorporating meta-analysed external SNP effect estimates - one via a weighted PCa 'risk' score based solely on the meta analysis estimates, and the other incorporating both the current and prior data via informative priors in a Bayesian logistic regression model. All methods demonstrated a slight improvement in predictive performance upon incorporation of genetics. The two methods that incorporated external information showed the greatest receiver-operating-characteristic AUCs increase from 0.61 to 0.64. The value of our methods comparison is likely to lie in observations of performance similarities, rather than difference, between three approaches of very different resource requirements. The two methods that included external information performed best, but only marginally despite substantial differences in complexity.},
+  Doi                      = {10.1002/gepi.21600},
+  Institution              = {Genetics Division, GlaxoSmithKline, Stevenage, United Kingdom. paul.j.newcombe@gsk.com},
+  Keywords                 = {Aged; Algorithms; Area Under Curve; Bayes Theorem; Calibration; European Continental Ancestry Group, genetics; Genetic Predisposition to Disease; Genome-Wide Association Study; Humans; Logistic Models; Male; Middle Aged; Models, Genetic; Models, Statistical; Polymorphism, Single Nucleotide; Prostatic Neoplasms, genetics; ROC Curve; Randomized Controlled Trials as Topic},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pmid                     = {22890972},
+  Timestamp                = {2015.03.11},
+  Url                      = {http://dx.doi.org/10.1002/gepi.21600}
+}
+
+@Article{Lim_19783532,
+  Title                    = {BTS guidelines for the management of community acquired pneumonia in adults: update 2009.},
+  Author                   = {{{Pneumonia Guidelines Committee of the B. T. S Standards of Care Committee}}},
+  Journal                  = {Thorax},
+  Year                     = {2009},
+
+  Month                    = {Oct},
+  Pages                    = {iii1--ii55},
+  Volume                   = {64 Suppl 3},
+
+  Doi                      = {10.1136/thx.2009.121434},
+  Institution              = {Respiratory Medicine, Nottingham University Hospitals, David Evans Building, Hucknall Road, Nottingham NG5 1PB, UK. weishen.lim@nuh.nhs.uk},
+  Keywords                 = {Adult; Anti-Bacterial Agents, therapeutic use; Community-Acquired Infections, diagnosis/drug therapy/microbiology; Critical Care; Drug Resistance, Microbial; Hospitalization; Humans; Pneumonia, Bacterial, diagnosis/drug therapy/microbiology; Pulmonary Medicine; Societies, Medical},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {64/Suppl_3/iii1},
+  Pmid                     = {19783532},
+  Timestamp                = {2015.03.13},
+  Url                      = {http://dx.doi.org/10.1136/thx.2009.121434}
+}
+
 @Article{Ranieri_10872010,
   Title                    = {Mechanical ventilation as a mediator of multisystem organ failure in acute respiratory distress syndrome.},
   Author                   = {Ranieri, V. M. and Giunta, F. and Suter, P. M. and Slutsky, A. S.},
@@ -921,27 +1254,6 @@
   Owner                    = {Michael Andreae},
   Pmid                     = {22698773},
   Timestamp                = {2015.03.02}
-}
-
-@Article{Rivers_11794169,
-  Title                    = {Early goal-directed therapy in the treatment of severe sepsis and septic shock.},
-  Author                   = {Rivers, E. and Nguyen, B. and Havstad, S. and Ressler, J. and Muzzin, A. and Knoblich, B. and Peterson, E. and Tomlanovich, M. and , Early Goal-Directed Therapy Collaborative Group},
-  Journal                  = {N Engl J Med},
-  Year                     = {2001},
-
-  Month                    = {Nov},
-  Number                   = {19},
-  Pages                    = {1368--1377},
-  Volume                   = {345},
-
-  Abstract                 = {Goal-directed therapy has been used for severe sepsis and septic shock in the intensive care unit. This approach involves adjustments of cardiac preload, afterload, and contractility to balance oxygen delivery with oxygen demand. The purpose of this study was to evaluate the efficacy of early goal-directed therapy before admission to the intensive care unit.We randomly assigned patients who arrived at an urban emergency department with severe sepsis or septic shock to receive either six hours of early goal-directed therapy or standard therapy (as a control) before admission to the intensive care unit. Clinicians who subsequently assumed the care of the patients were blinded to the treatment assignment. In-hospital mortality (the primary efficacy outcome), end points with respect to resuscitation, and Acute Physiology and Chronic Health Evaluation (APACHE II) scores were obtained serially for 72 hours and compared between the study groups.Of the 263 enrolled patients, 130 were randomly assigned to early goal-directed therapy and 133 to standard therapy; there were no significant differences between the groups with respect to base-line characteristics. In-hospital mortality was 30.5 percent in the group assigned to early goal-directed therapy, as compared with 46.5 percent in the group assigned to standard therapy (P = 0.009). During the interval from 7 to 72 hours, the patients assigned to early goal-directed therapy had a significantly higher mean (+/-SD) central venous oxygen saturation (70.4+/-10.7 percent vs. 65.3+/-11.4 percent), a lower lactate concentration (3.0+/-4.4 vs. 3.9+/-4.4 mmol per liter), a lower base deficit (2.0+/-6.6 vs. 5.1+/-6.7 mmol per liter), and a higher pH (7.40+/-0.12 vs. 7.36+/-0.12) than the patients assigned to standard therapy (P < or = 0.02 for all comparisons). During the same period, mean APACHE II scores were significantly lower, indicating less severe organ dysfunction, in the patients assigned to early goal-directed therapy than in those assigned to standard therapy (13.0+/-6.3 vs. 15.9+/-6.4, P < 0.001).Early goal-directed therapy provides significant benefits with respect to outcome in patients with severe sepsis and septic shock.},
-  Institution              = {Department of Emergency Medicine, Henry Ford Health Systems, Case Western Reserve University, Detroit, MI 48202, USA. erivers1@hfhs.org},
-  Keywords                 = {APACHE; Aged; Algorithms; Blood Pressure; Cardiovascular Agents, therapeutic use; Emergency Service, Hospital; Erythrocyte Transfusion; Female; Fluid Therapy; Health Resources, utilization; Hemodynamics; Hospital Mortality; Hospitals, Urban; Humans; Male; Middle Aged; Monitoring, Physiologic; Oxygen, blood; Prospective Studies; Sepsis, physiopathology/therapy; Shock, Septic, physiopathology/therapy; Single-Blind Method; Systemic Inflammatory Response Syndrome, physiopathology/therapy; Treatment Outcome},
-  Language                 = {eng},
-  Medline-pst              = {ppublish},
-  Owner                    = {Michael Andreae},
-  Pmid                     = {11794169},
-  Timestamp                = {2015.02.11}
 }
 
 @Article{Rivers_12594312,
@@ -1061,6 +1373,27 @@
   Timestamp                = {2015.02.07}
 }
 
+@Article{Ryynaenen_23496851,
+  Title                    = {Bayesian predictors of very poor health related quality of life and mortality in patients with COPD.},
+  Author                   = {Ryyn{\"{a}}nen, Olli-Pekka and Soini, Erkki J. and Lindqvist, Ari and Kilpel{\"{a}}inen, Maritta and Laitinen, Tarja},
+  Journal                  = {BMC Med Inform Decis Mak},
+  Year                     = {2013},
+  Pages                    = {34},
+  Volume                   = {13},
+
+  Abstract                 = {Chronic obstructive pulmonary disease (COPD) is associated with increased mortality and poor health-related quality of life (HRQoL) compared with the general population. The objective of this study was to identify clinical characteristics which predict mortality and very poor HRQoL among the COPD population and to develop a Bayesian prediction model.The data consisted of 738 patients with COPD who had visited the Pulmonary Clinic of the Helsinki and Turku University Hospitals during 1995-2006. The data set contained 49 potential predictor variables and two outcome variables: survival (dead/alive) and HRQoL measured with a 15D instrument (very poor HRQoL < 0.70 vs. typical HRQoL > 0.70).In the first phase of model validation we randomly divided the material into a training set (n = 538), and a test set (n = 200). This procedure was repeated ten times in random fashion to obtain independently created training sets and corresponding test sets. Modeling was performed by using the training set, and each model was tested by using the corresponding test set, repeated in each training set. In the second phase the final model was created by using the total material and eighteen most predictive variables. The performance of six logistic regressions approaches were shown for comparison purposes.In the final model, the following variables were associated with mortality or very poor HRQoL: age at onset, cerebrovascular disease, diabetes, alcohol abuse, cancer, psychiatric disease, body mass index, Forced Expiratory Volume (FEV1) \% of predicted, atrial fibrillation, and prolonged QT time in ECG. The prediction accuracy of the model was 77\%, sensitivity 0.30, specificity 0.95, positive predictive value 0.68, negative predictive value 0.78, and area under the ROC curve 0.69. While the sensitivity of the model reminded limited, good specificity, moderate accuracy, comparable or better performance in classification and better performance in variable selection and data usage in comparison to the logistic regression approaches, and positive and negative predictive values indicate that the model has potential in predicting mortality and very poor HRQoL in COPD patients.We developed a Bayesian prediction model which is potentially useful in predicting mortality and very poor HRQoL in patients with COPD.},
+  Doi                      = {10.1186/1472-6947-13-34},
+  Institution              = {Department of Public Health and Clinical Nutrition, University of Eastern Finland, Kuopio, Finland. olli-pekka.ryynanen@uef.fi},
+  Keywords                 = {Aged; Bayes Theorem; Female; Health Behavior; Humans; Logistic Models; Male; Middle Aged; Pulmonary Disease, Chronic Obstructive, mortality/physiopathology; Quality of Life; Respiratory Function Tests; Survival Analysis},
+  Language                 = {eng},
+  Medline-pst              = {epublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {1472-6947-13-34},
+  Pmid                     = {23496851},
+  Timestamp                = {2015.03.13},
+  Url                      = {http://dx.doi.org/10.1186/1472-6947-13-34}
+}
+
 @Book{Schafer_1997,
   Title                    = {Analysis of incomplete multivariate data},
   Author                   = {Schafer, Joseph L},
@@ -1148,6 +1481,31 @@
   Pmid                     = {15027501},
   Timestamp                = {2015.02.11},
   Url                      = {http://dx.doi.org/10.1081/BIP-120028507}
+}
+
+@Article{Smeeth_15602021,
+  Title                    = {Risk of myocardial infarction and stroke after acute infection or vaccination.},
+  Author                   = {Smeeth, Liam and Thomas, Sara L. and Hall, Andrew J. and Hubbard, Richard and Farrington, Paddy and Vallance, Patrick},
+  Journal                  = {N Engl J Med},
+  Year                     = {2004},
+
+  Month                    = {Dec},
+  Number                   = {25},
+  Pages                    = {2611--2618},
+  Volume                   = {351},
+
+  Abstract                 = {There is evidence that chronic inflammation may promote atherosclerotic disease. We tested the hypothesis that acute infection and vaccination increase the short-term risk of vascular events.We undertook within-person comparisons, using the case-series method, to study the risks of myocardial infarction and stroke after common vaccinations and naturally occurring infections. The study was based on the United Kingdom General Practice Research Database, which contains computerized medical records of more than 5 million patients.A total of 20,486 persons with a first myocardial infarction and 19,063 persons with a first stroke who received influenza vaccine were included in the analysis. There was no increase in the risk of myocardial infarction or stroke in the period after influenza, tetanus, or pneumococcal vaccination. However, the risks of both events were substantially higher after a diagnosis of systemic respiratory tract infection and were highest during the first three days (incidence ratio for myocardial infarction, 4.95; 95 percent confidence interval, 4.43 to 5.53; incidence ratio for stroke, 3.19; 95 percent confidence interval, 2.81 to 3.62). The risks then gradually fell during the following weeks. The risks were raised significantly but to a lesser degree after a diagnosis of urinary tract infection. The findings for recurrent myocardial infarctions and stroke were similar to those for first events.Our findings provide support for the concept that acute infections are associated with a transient increase in the risk of vascular events. By contrast, influenza, tetanus, and pneumococcal vaccinations do not produce a detectable increase in the risk of vascular events.},
+  Doi                      = {10.1056/NEJMoa041747},
+  File                     = {:C\:\\Users\\Michael Andreae\\Dropbox\\References\\15602021.pdf:PDF},
+  Institution              = {Department of Epidemiology and Population Health, London School of Hygiene and Tropical Medicine, London, United Kingdom. liam.smeeth@lshtm.ac.uk},
+  Keywords                 = {Acute Disease; Adult; Aged; Aged, 80 and over; Databases, Factual; Great Britain; Humans; Incidence; Influenza Vaccines, adverse effects; Middle Aged; Myocardial Infarction, etiology; Pneumococcal Vaccines, adverse effects; Respiratory Tract Infections, complications; Risk; Stroke, etiology; Tetanus Toxoid, adverse effects; Urinary Tract Infections, complications; Vaccines, adverse effects},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pii                      = {351/25/2611},
+  Pmid                     = {15602021},
+  Timestamp                = {2015.03.12},
+  Url                      = {http://dx.doi.org/10.1056/NEJMoa041747}
 }
 
 @Article{Spiegelhalter_11134920,
@@ -1253,6 +1611,30 @@ J Neuroimmune Pharmacol. 2013 Mar 19.},
   Timestamp                = {2015.02.26}
 }
 
+@Article{Vehtari_12396570,
+  Title                    = {Bayesian model assessment and comparison using cross-validation predictive densities.},
+  Author                   = {Vehtari, Aki and Lampinen, Jouko},
+  Journal                  = {Neural Comput},
+  Year                     = {2002},
+
+  Month                    = {Oct},
+  Number                   = {10},
+  Pages                    = {2439--2468},
+  Volume                   = {14},
+
+  Abstract                 = {In this work, we discuss practical methods for the assessment, comparison, and selection of complex hierarchical Bayesian models. A natural way to assess the goodness of the model is to estimate its future predictive capability by estimating expected utilities. Instead of just making a point estimate, it is important to obtain the distribution of the expected utility estimate because it describes the uncertainty in the estimate. The distributions of the expected utility estimates can also be used to compare models, for example, by computing the probability of one model having a better expected utility than some other model. We propose an approach using cross-validation predictive densities to obtain expected utility estimates and Bayesian bootstrap to obtain samples from their distributions. We also discuss the probabilistic assumptions made and properties of two practical cross-validation methods, importance sampling and k-fold cross-validation. As illustrative examples, we use multilayer perceptron neural networks and gaussian processes with Markov chain Monte Carlo sampling in one toy problem and two challenging real-world problems.},
+  Doi                      = {10.1162/08997660260293292},
+  File                     = {:C\:\\Users\\Michael Andreae\\Dropbox\\References\\12396570.pdf:PDF},
+  Institution              = {Laboratory of Computational Engineering, Helsinki University of Technology, FIN-02015, HUT, Finland. Aki.Vehtari@hut.fi},
+  Keywords                 = {Arm, physiology; Bayes Theorem; Neural Networks (Computer); Pattern Recognition, Visual; Reproducibility of Results; Robotics},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pmid                     = {12396570},
+  Timestamp                = {2015.03.11},
+  Url                      = {http://dx.doi.org/10.1162/08997660260293292}
+}
+
 @Article{Vetter_24781579,
   Title                    = {The perioperative surgical home: how anesthesiology can collaboratively achieve and leverage the triple aim in health care.},
   Author                   = {Vetter, Thomas R. and Boudreaux, Arthur M. and Jones, Keith A. and Hunter, Jr, James M and Pittet, Jean-Francois},
@@ -1263,6 +1645,7 @@ J Neuroimmune Pharmacol. 2013 Mar 19.},
   Number                   = {5},
   Pages                    = {1131--1136},
   Volume                   = {118},
+
   Doi                      = {10.1213/ANE.0000000000000228},
   Institution              = {From the Department of Anesthesiology, University of Alabama at Birmingham, Birmingham, Alabama.},
   Keywords                 = {Anesthesiology, economics/trends; Cost Savings; Humans; Patient Care Management; Patient-Centered Care; Perioperative Care, economics/trends},
@@ -1273,6 +1656,15 @@ J Neuroimmune Pharmacol. 2013 Mar 19.},
   Pmid                     = {24781579},
   Timestamp                = {2015.03.05},
   Url                      = {http://dx.doi.org/10.1213/ANE.0000000000000228}
+}
+
+@InCollection{Wagenmakers_Bayesian_v_Freq_2008,
+  Title                    = {Bayesian versus frequentist inference},
+  Author                   = {Wagenmakers, Eric-Jan and Lee, Michael and Lodewyckx, Tom and Iverson, Geoffrey J},
+  Booktitle                = {Bayesian evaluation of informative hypotheses},
+  Publisher                = {Springer},
+  Year                     = {2008},
+  Pages                    = {181--207}
 }
 
 @Article{Wang_20029935,
@@ -1297,6 +1689,18 @@ J Neuroimmune Pharmacol. 2013 Mar 19.},
   Pmid                     = {20029935},
   Timestamp                = {2015.02.07},
   Url                      = {http://dx.doi.org/10.1002/sim.3821}
+}
+
+@Misc{wang_predictive_2014,
+  Title                    = {Difficulty of selecting among multilevel models using predictive accuracy},
+
+  Author                   = {Wang, Wei and Gelman, Andrew},
+  Year                     = {2014},
+
+  Owner                    = {Michael Andreae},
+  Publisher                = {unpublished manuscript},
+  Timestamp                = {2015.03.10},
+  Url                      = {http://www.stat.columbia.edu/~gelman/research/unpublished/xval.pdf}
 }
 
 @Article{Weiss_21616996,
@@ -1345,6 +1749,29 @@ J Neuroimmune Pharmacol. 2013 Mar 19.},
   Review                   = {exploits the temporal relationship between variables in longitudinal data with a potentially non-monotone missingness pattern},
   Timestamp                = {2015.02.19},
   Url                      = {http://dx.doi.org/10.1002/sim.6184}
+}
+
+@Article{Wu_20473190,
+  Title                    = {Prediction modeling using EHR data: challenges, strategies, and a comparison of machine learning approaches.},
+  Author                   = {Wu, Jionglin and Roy, Jason and Stewart, Walter F.},
+  Journal                  = {Med Care},
+  Year                     = {2010},
+
+  Month                    = {Jun},
+  Number                   = {6 Suppl},
+  Pages                    = {S106--S113},
+  Volume                   = {48},
+
+  Abstract                 = {Electronic health record (EHR) databases contain vast amounts of information about patients. Machine learning techniques such as Boosting and support vector machine (SVM) can potentially identify patients at high risk for serious conditions, such as heart disease, from EHR data. However, these techniques have not yet been widely tested.To model detection of heart failure more than 6 months before the actual date of clinical diagnosis using machine learning techniques applied to EHR data. To compare the performance of logistic regression, SVM, and Boosting, along with various variable selection methods in heart failure prediction.Geisinger Clinic primary care patients with data in the EHR data from 2001 to 2006 diagnosed with heart failure between 2003 and 2006 were identified. Controls were randomly selected matched on sex, age, and clinic for this nested case-control study.Area under the curve (AUC) of receiver operator characteristic curve was computed for each method using 10-fold cross-validation. The number of variables selected by each method was compared.Logistic regression with model selection based on Bayesian information criterion provided the most parsimonious model, with about 10 variables selected on average, while maintaining a high AUC (0.77 in 10-fold cross-validation). Boosting with strict variable importance threshold provided similar performance.Heart failure was predicted more than 6 months before clinical diagnosis, with AUC of about 0.76, using logistic regression and Boosting. These results were achieved even with strict model selection criteria. SVM had the poorest performance, possibly because of imbalanced data.},
+  Doi                      = {10.1097/MLR.0b013e3181de9e17},
+  Institution              = {Department of Statistics, Machine Learning Department, Carnegie Mellon University, Pittsburgh, PA, USA.},
+  Keywords                 = {Artificial Intelligence; Heart Failure, diagnosis; Humans; Medical Records Systems, Computerized, statistics /&/ numerical data; ROC Curve; Statistics as Topic},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {Michael Andreae},
+  Pmid                     = {20473190},
+  Timestamp                = {2015.03.13},
+  Url                      = {http://dx.doi.org/10.1097/MLR.0b013e3181de9e17}
 }
 
 @Article{Wunsch_20639743,

@@ -55,8 +55,7 @@ N.~Naeem and H.~Montenegro.
 \newblock {\em Resuscitation}, 67(1):13--23, Oct 2005. PMID: 16150531.
 
 \bibitem{Rivers_11794169}
-E.~Rivers, B.~Nguyen, S.~Havstad, J.~Ressler, A.~Muzzin, B.~Knoblich,
-  E.~Peterson, M.~Tomlanovich, and E.~G.-D. T. C.~G. ~.
+{{Early Goal-Directed Therapy Collaborative Group}}.
 \newblock Early goal-directed therapy in the treatment of severe sepsis and
   septic shock.
 \newblock {\em N Engl J Med}, 345(19):1368--1377, Nov 2001. PMID: 11794169.
@@ -75,6 +74,43 @@ I.~A. Mitchell, H.~McKay, C.~{Van Leuvan}, R.~Berry, C.~McCutcheon, B.~Avard,
   patients.
 \newblock {\em Resuscitation}, 81(6):658--666, Jun 2010. PMID: 20378235.
 
+\bibitem{Levy_23103175}
+M.~M. Levy, A.~Artigas, G.~S. Phillips, A.~Rhodes, R.~Beale, T.~Osborn, J.-L.
+  Vincent, S.~Townsend, S.~Lemeshow, and R.~P. Dellinger.
+\newblock Outcomes of the Surviving Sepsis Campaign in intensive care units in
+  the USA and Europe: a prospective cohort study.
+\newblock {\em Lancet Infect Dis}, 12(12):919--924, Dec 2012. PMID: 23103175.
+
+\bibitem{Lim_19783532}
+{{Pneumonia Guidelines Committee of the B. T. S Standards of Care Committee}}.
+\newblock BTS guidelines for the management of community acquired pneumonia in
+  adults: update 2009.
+\newblock {\em Thorax}, 64 Suppl 3:iii1--ii55, Oct 2009. PMID: 19783532.
+
+\bibitem{Barr_23269131}
+{{American College of Critical Care Medicine}}.
+\newblock Clinical practice guidelines for the management of pain, agitation,
+  and delirium in adult patients in the intensive care unit.
+\newblock {\em Crit Care Med}, 41(1):263--306, Jan 2013. PMID: 23269131.
+
+\bibitem{Girard_18191684}
+T.~D. Girard, J.~P. Kress, B.~D. Fuchs, J.~W.~W. Thomason, W.~D. Schweickert,
+  B.~T. Pun, D.~B. Taichman, J.~G. Dunn, A.~S. Pohlman, P.~A. Kinniry, J.~C.
+  Jackson, A.~E. Canonico, R.~W. Light, A.~K. Shintani, J.~L. Thompson, S.~M.
+  Gordon, J.~B. Hall, R.~S. Dittus, G.~R. Bernard, and E.~W. Ely.
+\newblock Efficacy and safety of a paired sedation and ventilator weaning
+  protocol for mechanically ventilated patients in intensive care (Awakening
+  and Breathing Controlled trial): a randomised controlled trial.
+\newblock {\em Lancet}, 371(9607):126--134, Jan 2008. PMID: 18191684.
+
+\bibitem{Hebert_9971864}
+P.~C. H{\'{e}}bert, G.~Wells, M.~A. Blajchman, J.~Marshall, C.~Martin,
+  G.~Pagliarello, M.~Tweeddale, I.~Schweitzer, and E.~Yetisir.
+\newblock A multicenter, randomized, controlled clinical trial of transfusion
+  requirements in critical care. Transfusion Requirements in Critical Care
+  Investigators, Canadian Critical Care Trials Group.
+\newblock {\em N Engl J Med}, 340(6):409--417, Feb 1999. PMID: 9971864.
+
 \bibitem{Dean_19279318}
 B.~B. Dean, J.~Lam, J.~L. Natoli, Q.~Butler, D.~Aguilar, and R.~J. Nordyke.
 \newblock Review: use of electronic medical records for health outcomes
@@ -88,70 +124,32 @@ R.~Amarasingham, B.~J. Moore, Y.~P. Tabak, M.~H. Drazner, C.~A. Clark,
   30-day readmission or death using electronic medical record data.
 \newblock {\em Med Care}, 48(11):981--988, Nov 2010. PMID: 20940649.
 
-\bibitem{Thomas_Bayes}
-M.~Bayes and M.~Price.
-\newblock An essay towards solving a problem in the doctrine of chances. by the
-  late rev. mr. bayes, frs communicated by mr. price, in a letter to john
-  canton, amfrs.
-\newblock {\em Philosophical Transactions (1683-1775)}, pages 370--418, 1763.
+\bibitem{Welch24782349}
+C.~A. Welch, I.~Petersen, J.~W. Bartlett, I.~R. White, L.~Marston, R.~W.
+  Morris, I.~Nazareth, K.~Walters, and J.~Carpenter.
+\newblock Evaluation of two-fold fully conditional specification multiple
+  imputation for longitudinal electronic health record data.
+\newblock {\em Stat Med}, 33(21):3725--3737, Sep 2014. PMID: 24782349.
 
-\bibitem{Ashby_16947924}
-D.~Ashby.
-\newblock Bayesian statistics in medicine: a 25 year review.
-\newblock {\em Stat Med}, 25(21):3589--3631, Nov 2006. PMID: 16947924.
+\bibitem{Smeeth_15602021}
+L.~Smeeth, S.~L. Thomas, A.~J. Hall, R.~Hubbard, P.~Farrington, and
+  P.~Vallance.
+\newblock Risk of myocardial infarction and stroke after acute infection or
+  vaccination.
+\newblock {\em N Engl J Med}, 351(25):2611--2618, Dec 2004. PMID: 15602021.
 
-\bibitem{Spiegelhalter_11134920}
-D.~J. Spiegelhalter, J.~P. Myles, D.~R. Jones, and K.~R. Abrams.
-\newblock Bayesian methods in health technology assessment: a review.
-\newblock {\em Health Technol Assess}, 4(38):1--130, 2000. PMID: 11134920.
+\bibitem{Dave_20819960}
+S.~Dav{\'{e}}, I.~Petersen, L.~Sherr, and I.~Nazareth.
+\newblock Incidence of maternal and paternal depression in primary care: a
+  cohort study using a primary care database.
+\newblock {\em Arch Pediatr Adolesc Med}, 164(11):1038--1044, Nov 2010. PMID:
+  20819960.
 
-\bibitem{Yoo_24987556}
-C.~Yoo, L.~Ramirez, and J.~Liuzzi.
-\newblock Big data analysis using modern statistical and machine learning
-  methods in medicine.
-\newblock {\em Int Neurourol J}, 18(2):50--57, Jun 2014. PMID: 24987556.
-
-\bibitem{Stan_Software_2014}
-{Stan Development Team}.
-\newblock Stan: A C++ Library for Probability and Sampling, Version 2.5.0,
-  2014.
-
-\bibitem{Gelman-Hill_2014}
-A.~Gelman, J.~B. Carlin, H.~S. Stern, and D.~B. Rubin.
-\newblock {\em Bayesian data analysis}, volume~2.
-\newblock Taylor \& Francis, 2014.
-
-\bibitem{Kruschke_Book_2014}
-J.~Kruschke.
-\newblock {\em Doing Bayesian data analysis: A tutorial introduction with R}.
-\newblock Academic Press, 2014.
-
-\bibitem{Kruschke_22774788}
-J.~K. Kruschke.
-\newblock Bayesian estimation supersedes the t test.
-\newblock {\em J Exp Psychol Gen}, 142(2):573--603, May 2013. PMID: 22774788.
-
-\bibitem{Carlin_1349763}
-J.~B. Carlin.
-\newblock Meta-analysis for 2 x 2 tables: a Bayesian approach.
-\newblock {\em Stat Med}, 11(2):141--158, Jan 1992. PMID: 1349763.
-
-\bibitem{Sutton_2012}
-A.~J. Sutton, N.~J. Cooper, K.~R. Abrams, and A.~Ades.
-\newblock {\em Evidence synthesis for decision making in healthcare}, volume
-  132.
-\newblock John Wiley \& Sons, 2012.
-
-\bibitem{Abrams_9483729}
-K.~Abrams and B.~Sans{\'{o}}.
-\newblock Approximate Bayesian inference for random effects meta-analysis.
-\newblock {\em Stat Med}, 17(2):201--218, Jan 1998. PMID: 9483729.
-
-\bibitem{Gelman_red_2009}
-A.~Gelman.
-\newblock {\em Red state, blue state, rich state, poor state: why Americans
-  vote the way they do}.
-\newblock Princeton University Press, 2009.
+\bibitem{Man_23272239}
+S.-L. Man, I.~Petersen, M.~Thompson, and I.~Nazareth.
+\newblock Antiepileptic drugs during pregnancy in primary care: a UK population
+  based study.
+\newblock {\em PLoS One}, 7(12):e52339, 2012. PMID: 23272239.
 
 \bibitem{Bafumi_Gelman_2007}
 J.~Bafumi and A.~Gelman.
@@ -160,15 +158,42 @@ J.~Bafumi and A.~Gelman.
 \newblock {SSRN} Scholarly Paper {ID} 1010095, Social Science Research Network,
   Rochester, {NY}, September 2007.
 
+\bibitem{Efron_1975}
+B.~Efron and C.~Morris.
+\newblock Data analysis using Stein's estimator and its generalizations.
+\newblock {\em Journal of the American Statistical Association},
+  70(350):311--319, 1975.
+
+\bibitem{Gelman-Hill_2014}
+A.~Gelman, J.~B. Carlin, H.~S. Stern, and D.~B. Rubin.
+\newblock {\em Bayesian data analysis}, volume~2.
+\newblock Taylor \& Francis, 2014.
+
 \bibitem{Gelman_multilevel_2006}
 A.~Gelman.
 \newblock Multilevel (Hierarchical) Modeling: What It Can and Cannot Do.
 \newblock {\em Technometrics}, 48(3):432--435, August 2006.
 
+\bibitem{Stein_paradox_Scientific_American}
+B.~Efron and C.~N. Morris.
+\newblock Stein's paradox in statistics.
+\newblock {\em Scientific American}, 263(5):119--127, 1977.
+
+\bibitem{Efron_Stein_1977}
+B.~Efron and C.~N. Morris.
+\newblock {\em Stein's paradox in statistics}.
+\newblock WH Freeman, 1977.
+
 \bibitem{Rubin_1976}
 D.~B. Rubin.
 \newblock Inference and missing data.
 \newblock {\em Biometrika}, 63(3):581--592, 1976.
+
+\bibitem{Hall_25389642}
+C.~B. Hall, R.~B. Lipton, M.~J. Katz, and C.~Wang.
+\newblock Correcting Bias Caused by Missing Data in the Estimate of the Effect
+  of Apolipoprotein epsilon 4 on Cognitive Decline.
+\newblock {\em J Int Neuropsychol Soc}, pages 1--6, Nov 2014. PMID: 25389642.
 
 \bibitem{Daniels24571539}
 M.~J. Daniels, C.~Wang, and B.~H. Marcus.
@@ -210,16 +235,120 @@ J.~L. Schafer.
 \newblock {\em Analysis of incomplete multivariate data}.
 \newblock CRC press, 1997.
 
-\bibitem{Fitzmaurice_2008}
-G.~Fitzmaurice, M.~Davidian, G.~Verbeke, and G.~Molenberghs.
-\newblock {\em Longitudinal data analysis}.
-\newblock CRC Press, 2008.
+\bibitem{Carlin_1349763}
+J.~B. Carlin.
+\newblock Meta-analysis for 2 x 2 tables: a Bayesian approach.
+\newblock {\em Stat Med}, 11(2):141--158, Jan 1992. PMID: 1349763.
 
-\bibitem{Hall_25389642}
-C.~B. Hall, R.~B. Lipton, M.~J. Katz, and C.~Wang.
-\newblock Correcting Bias Caused by Missing Data in the Estimate of the Effect
-  of Apolipoprotein epsilon 4 on Cognitive Decline.
-\newblock {\em J Int Neuropsychol Soc}, pages 1--6, Nov 2014. PMID: 25389642.
+\bibitem{Sutton_2012}
+A.~J. Sutton, N.~J. Cooper, K.~R. Abrams, and A.~Ades.
+\newblock {\em Evidence synthesis for decision making in healthcare}, volume
+  132.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{Gelman_red_2009}
+A.~Gelman.
+\newblock {\em Red state, blue state, rich state, poor state: why Americans
+  vote the way they do}.
+\newblock Princeton University Press, 2009.
+
+\bibitem{Ashby_16947924}
+D.~Ashby.
+\newblock Bayesian statistics in medicine: a 25 year review.
+\newblock {\em Stat Med}, 25(21):3589--3631, Nov 2006. PMID: 16947924.
+
+\bibitem{Spiegelhalter_11134920}
+D.~J. Spiegelhalter, J.~P. Myles, D.~R. Jones, and K.~R. Abrams.
+\newblock Bayesian methods in health technology assessment: a review.
+\newblock {\em Health Technol Assess}, 4(38):1--130, 2000. PMID: 11134920.
+
+\bibitem{Efron_largescale_2013}
+B.~Efron.
+\newblock {\em Large-scale inference: empirical Bayes methods for estimation,
+  testing, and prediction}, volume~1.
+\newblock Cambridge University Press, 2013.
+
+\bibitem{Yoo_24987556}
+C.~Yoo, L.~Ramirez, and J.~Liuzzi.
+\newblock Big data analysis using modern statistical and machine learning
+  methods in medicine.
+\newblock {\em Int Neurourol J}, 18(2):50--57, Jun 2014. PMID: 24987556.
+
+\bibitem{Himes_19261943}
+B.~E. Himes, Y.~Dai, I.~S. Kohane, S.~T. Weiss, and M.~F. Ramoni.
+\newblock Prediction of chronic obstructive pulmonary disease (COPD) in asthma
+  patients using electronic medical records.
+\newblock {\em J Am Med Inform Assoc}, 16(3):371--379, 2009. PMID: 19261943.
+
+\bibitem{Ryynaenen_23496851}
+O.-P. Ryyn{\"{a}}nen, E.~J. Soini, A.~Lindqvist, M.~Kilpel{\"{a}}inen, and
+  T.~Laitinen.
+\newblock Bayesian predictors of very poor health related quality of life and
+  mortality in patients with COPD.
+\newblock {\em BMC Med Inform Decis Mak}, 13:34, 2013. PMID: 23496851.
+
+\bibitem{Wu_20473190}
+J.~Wu, J.~Roy, and W.~F. Stewart.
+\newblock Prediction modeling using EHR data: challenges, strategies, and a
+  comparison of machine learning approaches.
+\newblock {\em Med Care}, 48(6 Suppl):S106--S113, Jun 2010. PMID: 20473190.
+
+\bibitem{Kruschke_22774788}
+J.~K. Kruschke.
+\newblock Bayesian estimation supersedes the t test.
+\newblock {\em J Exp Psychol Gen}, 142(2):573--603, May 2013. PMID: 22774788.
+
+\bibitem{Kruschke_Book_2014}
+J.~Kruschke.
+\newblock {\em Doing Bayesian data analysis: A tutorial introduction with R}.
+\newblock Academic Press, 2014.
+
+\bibitem{Thomas_Bayes}
+M.~Bayes and M.~Price.
+\newblock An essay towards solving a problem in the doctrine of chances. by the
+  late rev. mr. bayes, frs communicated by mr. price, in a letter to john
+  canton, amfrs.
+\newblock {\em Philosophical Transactions (1683-1775)}, pages 370--418, 1763.
+
+\bibitem{Gelman_Cauchy_2006}
+A.~Gelman et~al.
+\newblock Prior distributions for variance parameters in hierarchical models
+  (comment on article by Browne and Draper).
+\newblock {\em Bayesian analysis}, 1(3):515--534, 2006.
+
+\bibitem{Wagenmakers_Bayesian_v_Freq_2008}
+E.-J. Wagenmakers, M.~Lee, T.~Lodewyckx, and G.~J. Iverson.
+\newblock Bayesian versus frequentist inference.
+\newblock In {\em Bayesian evaluation of informative hypotheses}, pages
+  181--207. Springer, 2008.
+
+\bibitem{Efron_Bayes_v_Freqentisit}
+B.~Efron.
+\newblock {\em Modern science and the Bayesian-frequentist controversy}.
+\newblock Division of Biostatistics, Stanford University, 2005.
+
+\bibitem{Abrams_9483729}
+K.~Abrams and B.~Sans{\'{o}}.
+\newblock Approximate Bayesian inference for random effects meta-analysis.
+\newblock {\em Stat Med}, 17(2):201--218, Jan 1998. PMID: 9483729.
+
+\bibitem{Stan_Software_2014}
+{Stan Development Team}.
+\newblock Stan: A C++ Library for Probability and Sampling, Version 2.5.0,
+  2014.
+
+\bibitem{StanislawUlam_1949}
+N.~Metropolis and S.~Ulam.
+\newblock The monte carlo method.
+\newblock {\em Journal of the American statistical association},
+  44(247):335--341, 1949.
+
+\bibitem{Homan_Gelman_NUTS_2014}
+M.~D. Homan and A.~Gelman.
+\newblock The no-U-turn sampler: Adaptively setting path lengths in Hamiltonian
+  Monte Carlo.
+\newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623,
+  2014.
 
 \bibitem{Duncan_16710766}
 M.~M. Duncan, P.~A. McIntosh, C.~D. Stayton, and C.~B. Hall.
@@ -270,27 +399,6 @@ H.~E. Kenz and P.~{Van der Linden}.
 \newblock Transfusion-related acute lung injury.
 \newblock {\em Eur J Anaesthesiol}, 31(7):345--350, Jul 2014. PMID: 24892308.
 
-\bibitem{Hebert_9971864}
-P.~C. H{\'{e}}bert, G.~Wells, M.~A. Blajchman, J.~Marshall, C.~Martin,
-  G.~Pagliarello, M.~Tweeddale, I.~Schweitzer, and E.~Yetisir.
-\newblock A multicenter, randomized, controlled clinical trial of transfusion
-  requirements in critical care. Transfusion Requirements in Critical Care
-  Investigators, Canadian Critical Care Trials Group.
-\newblock {\em N Engl J Med}, 340(6):409--417, Feb 1999. PMID: 9971864.
-
-\bibitem{Ranucci_22698773}
-M.~Ranucci, U.~{Di Dedda}, S.~Castelvecchio, L.~Menicanti, A.~Frigiola,
-  G.~Pelissero, S.~, and C.~O. R.~S. Group.
-\newblock Impact of preoperative anemia on outcome in adult cardiac surgery: a
-  propensity-matched analysis.
-\newblock {\em Ann Thorac Surg}, 94(4):1134--1141, Oct 2012. PMID: 22698773.
-
-\bibitem{ASA_25545654}
-Practice guidelines for perioperative blood management: an updated report by
-  the american society of anesthesiologists task force on perioperative blood
-  management.
-\newblock {\em Anesthesiology}, 122(2):241--275, Feb 2015. PMID: 25545654.
-
 \bibitem{Likosky_20488928}
 D.~S. Likosky, D.~C. FitzGerald, R.~C. Groom, D.~K. Jones, R.~A. Baker, K.~G.
   Shann, C.~D. Mazer, B.~D. Spiess, and S.~C. Body.
@@ -309,26 +417,16 @@ C.~H. Weiss, F.~Moazed, C.~A. McEvoy, B.~D. Singer, I.~Szleifer, L.~A.~N.
 \newblock {\em Am J Respir Crit Care Med}, 184(6):680--686, Sep 2011. PMID:
   21616996.
 
-\bibitem{Rothenhaeusler_2005}
-H.-B. Rothenh{\"{a}}usler, B.~Grieser, G.~Nollert, B.~Reichart, G.~Schelling,
-  and H.-P. Kapfhammer.
-\newblock Psychiatric and psychosocial outcome of cardiac surgery with
-  cardiopulmonary bypass: a prospective 12-month follow-up study.
-\newblock {\em Gen Hosp Psychiatry}, 27(1):18--28, 2005. PMID: 15694215.
+\bibitem{Gelman_predictive_2000}
+A.~Gelman, Y.~Goegebeur, F.~Tuerlinckx, and I.~Van~Mechelen.
+\newblock Diagnostic Checks for Discrete Data Regression Models Using Posterior
+  Predictive Simulations.
+\newblock {\em Applied Statistics}, pages 247--268, 2000.
 
-\bibitem{Rotte_15809512}
-M.~Rotte, C.~Baerecke, G.~Pottag, S.~Klose, E.~Kanneberg, H.-J. Heinze, and
-  H.~Lehnert.
-\newblock Insulin affects the neuronal response in the medial temporal lobe in
-  humans.
-\newblock {\em Neuroendocrinology}, 81(1):49--55, 2005. PMID: 15809512.
-
-\bibitem{Homan_Gelman_NUTS_2014}
-M.~D. Homan and A.~Gelman.
-\newblock The no-U-turn sampler: Adaptively setting path lengths in Hamiltonian
-  Monte Carlo.
-\newblock {\em The Journal of Machine Learning Research}, 15(1):1593--1623,
-  2014.
+\bibitem{shinystan-software:2015}
+{shinyStan Team}.
+\newblock shinyStan: R Package for Interactive Exploration of Markov Chain
+  Monte Carlo Output, Version 0.1, 2015.
 
 \bibitem{Gelman2004posteriorpredictivechecks}
 A.~Gelman.
@@ -341,24 +439,46 @@ A.~Gelman, X.-L. Meng, and H.~Stern.
   discrepancies.
 \newblock {\em Statistica sinica}, 6(4):733--760, 1996.
 
-\bibitem{Gelman_predictive_2000}
-A.~Gelman, Y.~Goegebeur, F.~Tuerlinckx, and I.~Van~Mechelen.
-\newblock Diagnostic Checks for Discrete Data Regression Models Using Posterior
-  Predictive Simulations.
-\newblock {\em Applied Statistics}, pages 247--268, 2000.
+\bibitem{Buja1999inference}
+A.~Buja, D.~Cook, and D.~Swayne.
+\newblock Inference for data visualization.
+\newblock In {\em Talk given at Joint Statistical Meetings}, 1999.
+
+\bibitem{DeLong_3203132}
+E.~R. DeLong, D.~M. DeLong, and D.~L. Clarke-Pearson.
+\newblock Comparing the areas under two or more correlated receiver operating
+  characteristic curves: a nonparametric approach.
+\newblock {\em Biometrics}, 44(3):837--845, Sep 1988. PMID: 3203132.
+
+\bibitem{Newcombe_22890972}
+P.~J. Newcombe, B.~H. Reck, J.~Sun, G.~T. Platek, C.~Verzilli, A.~K. Kader,
+  S.-T. Kim, F.-C. Hsu, Z.~Zhang, S.~L. Zheng, V.~E. Mooser, L.~D. Condreay,
+  C.~F. Spraggs, J.~C. Whittaker, R.~S. Rittmaster, and J.~Xu.
+\newblock A comparison of Bayesian and frequentist approaches to incorporating
+  external information for the prediction of prostate cancer risk.
+\newblock {\em Genet Epidemiol}, 36(1):71--83, Jan 2012. PMID: 22890972.
+
+\bibitem{Vehtari_12396570}
+A.~Vehtari and J.~Lampinen.
+\newblock Bayesian model assessment and comparison using cross-validation
+  predictive densities.
+\newblock {\em Neural Comput}, 14(10):2439--2468, Oct 2002. PMID: 12396570.
+
+\bibitem{Gelman_Aki_2014predictive}
+A.~Gelman, J.~Hwang, and A.~Vehtari.
+\newblock Understanding predictive information criteria for Bayesian models.
+\newblock {\em Statistics and Computing}, 24(6):997--1016, 2014.
+
+\bibitem{wang_predictive_2014}
+W.~Wang and A.~Gelman.
+\newblock Difficulty of selecting among multilevel models using predictive
+  accuracy, 2014.
 
 \bibitem{Congdon_modelcomparison_2005}
 P.~Congdon.
 \newblock Bayesian predictive model comparison via parallel sampling.
 \newblock {\em Computational statistics \& data analysis}, 48(4):735--753,
   2005.
-
-\bibitem{Welch24782349}
-C.~A. Welch, I.~Petersen, J.~W. Bartlett, I.~R. White, L.~Marston, R.~W.
-  Morris, I.~Nazareth, K.~Walters, and J.~Carpenter.
-\newblock Evaluation of two-fold fully conditional specification multiple
-  imputation for longitudinal electronic health record data.
-\newblock {\em Stat Med}, 33(21):3725--3737, Sep 2014. PMID: 24782349.
 
 \bibitem{Huntington_16311133}
 J.~L. Huntington and A.~Dueck.
@@ -388,17 +508,17 @@ L.~T. Goodnough, J.~H. Levy, and M.~F. Murphy.
 \newblock Concepts of blood transfusion in adults.
 \newblock {\em Lancet}, 381(9880):1845--1854, May 2013. PMID: 23706801.
 
-\bibitem{Andreae_23811426}
-M.~H. Andreae and D.~A. Andreae.
-\newblock Regional anaesthesia to prevent chronic pain after surgery: a
-  Cochrane systematic review and meta-analysis.
-\newblock {\em Br J Anaesth}, 111(5):711--720, Nov 2013. PMID: 23811426.
-
 \bibitem{Vetter_24781579}
 T.~R. Vetter, A.~M. Boudreaux, K.~A. Jones, J.~M. Hunter, Jr, and J.-F. Pittet.
 \newblock The perioperative surgical home: how anesthesiology can
   collaboratively achieve and leverage the triple aim in health care.
 \newblock {\em Anesth Analg}, 118(5):1131--1136, May 2014. PMID: 24781579.
+
+\bibitem{Andreae_23811426}
+M.~H. Andreae and D.~A. Andreae.
+\newblock Regional anaesthesia to prevent chronic pain after surgery: a
+  Cochrane systematic review and meta-analysis.
+\newblock {\em Br J Anaesth}, 111(5):711--720, Nov 2013. PMCID: PMC3793661.
 
 \bibitem{Kaushal_24821739}
 R.~Kaushal, G.~Hripcsak, D.~D. Ascheim, T.~Bloom, T.~R. Campion, Jr, A.~L.
